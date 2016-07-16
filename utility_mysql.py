@@ -70,9 +70,3 @@ def insert_data():
 
 
 
-
-pymysql_connect()		
-sqlalchemy_connect()
-save_data()
-insert_data()
-
