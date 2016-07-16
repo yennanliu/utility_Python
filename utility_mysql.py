@@ -7,7 +7,7 @@
 
 # ref : http://stackoverflow.com/questions/10154633/load-csv-data-into-mysql-in-python
 
-import pymysql
+
 from pymysql import * 
 import pandas as pd
 import pymysql
