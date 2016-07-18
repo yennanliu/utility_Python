@@ -8,16 +8,41 @@
 # ref : http://stackoverflow.com/questions/10154633/load-csv-data-into-mysql-in-python
 
 
-from pymysql import * 
-import pandas as pd
 import pymysql
+from pymysql import * 
 from sqlalchemy import create_engine
 import datetime as dt   
-import time, datetime
+import time
 import csv
-
+import requests
+from bs4 import BeautifulSoup
+import lxml
+import urllib, json
+import pandas as pd, numpy as np
+import pprint
 
 localtime = time.asctime( time.localtime(time.time()) )
+
+
+def taxi_df():
+		# Make the HTTP request.
+	request_headers = {"api-key": "gWpVyvnoSuAeW1J27L7W4nNG4gbQwfVC"}
+	request = urllib.request.Request('https://api.data.gov.sg/v1/transport/taxi-availability',headers=request_headers)
+	response = urllib.request.urlopen(request)
+	result = json.loads(response.readall().decode('utf-8'))
+	(json.loads(json.dumps(result, ensure_ascii=False)))
+	data = result['features'][0]['geometry']['coordinates']
+	df = pd.DataFrame(result['features'][0]['geometry']['coordinates'])
+	df.columns = ['lon', 'lat']
+	df['timestamp']=dt.datetime.today().strftime("%Y-%m-%d %H:%M:%S")
+	df_=[]
+	for k in data:
+		df_.append(k[::-1])
+	
+	for k in df_:
+		k.append(0.5)
+	print (df)	
+	return (df)
 
 
 def pymysql_connect():
@@ -64,9 +89,31 @@ def insert_data_csv():
 			print ("INSERT INTO taxi (id,lon,lat,time) values (%s, %s, %s,%s)" % (row[1],row[2],row[3],row[4]))
 		conn.commit()
 		a.close()
-		print ('insert OK')
+		print ('insert csv OK')
 	except:
-		print ('insert failed')
+		print ('insert csv failed')
+		
+		
+
+
+def insert_data_df():
+	try:
+	conn= pymysql.connect(host=dburl,port = 3306,user='root',password=password,db='mysqltest1',cursorclass=pymysql.cursors.DictCursor)
+		a=conn.cursor()
+		df=taxi_df()
+		            
+		for index,row in df.iterrows():
+			print (row[0])
+			a.execute("INSERT INTO `taxi` (`id`,`lon`,`lat`,`time`) VALUES (%s, %s, %s,%s)", (index,row[0],row[1],row[2]))
+			print ("INSERT INTO taxi (id,lon,lat,time) values (%s, %s, %s,%s)" % (index,row[0],row[1],row[2]))
+	
+		conn.commit()
+		a.close()
+		print ('insert df OK')
+	except:
+		print ('insert df failed')
+
+
 
 
 
