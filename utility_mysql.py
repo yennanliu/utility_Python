@@ -53,14 +53,15 @@ def save_data():
 	print('save data OK')
 
 
-def insert_data():
+def insert_data_csv():
 	try:
 		conn= pymysql.connect(host=dburl,port = 3306,user='root',password=password,db='mysqltest1',cursorclass=pymysql.cursors.DictCursor)
 		a=conn.cursor()
 		f = open('/Users/GGV/Desktop/sg_data/taxi_data.csv')
 		csv_data = csv.reader(f)              
 		for row in csv_data:
-			a.execute("INSERT INTO taxi" "(id,lon,lat,time)" "VALUES('{0}', '{1}', '{2}', '{3}')")
+			a.execute("INSERT INTO `taxi` (`id`,`lon`,`lat`,`time`) VALUES (%s, %s, %s,%s)", (row[1],row[2],row[3],row[4]))
+			print ("INSERT INTO taxi (id,lon,lat,time) values (%s, %s, %s,%s)" % (row[1],row[2],row[3],row[4]))
 		conn.commit()
 		a.close()
 		print ('insert OK')
