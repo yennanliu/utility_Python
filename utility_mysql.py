@@ -7,6 +7,9 @@
 
 # ref : http://stackoverflow.com/questions/10154633/load-csv-data-into-mysql-in-python
 
+# ref : http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_sql.html
+
+
 
 import pymysql
 from pymysql import * 
@@ -20,6 +23,7 @@ import lxml
 import urllib, json
 import pandas as pd, numpy as np
 import pprint
+
 
 localtime = time.asctime( time.localtime(time.time()) )
 
@@ -96,22 +100,28 @@ def insert_data_csv():
 		
 
 
-def insert_data_df():
-	try:
-	conn= pymysql.connect(host=dburl,port = 3306,user='root',password=password,db='mysqltest1',cursorclass=pymysql.cursors.DictCursor)
-		a=conn.cursor()
-		df=taxi_df()
-		            
-		for index,row in df.iterrows():
-			print (row[0])
-			a.execute("INSERT INTO `taxi` (`id`,`lon`,`lat`,`time`) VALUES (%s, %s, %s,%s)", (index,row[0],row[1],row[2]))
-			print ("INSERT INTO taxi (id,lon,lat,time) values (%s, %s, %s,%s)" % (index,row[0],row[1],row[2]))
+def insert_data_df_new_table():
 	
-		conn.commit()
-		a.close()
+	'''
+	if_exists : {‘fail’, ‘replace’, ‘append’}, default ‘fail’
+	fail: If table exists, do nothing.
+	replace: If table exists, drop it, recreate it, and insert data.
+	append: If table exists, insert data. Create if does not exist.
+	
+	'''
+	try:
+		
+		engine = create_engine('mysql+pymysql://<user>:<password>@<host>[:<port>]/<dbname>', echo=True)
+		df=taxi_df()
+		df.to_sql('taxi', engine, if_exists = 'append') 
+		
 		print ('insert df OK')
 	except:
 		print ('insert df failed')
+
+		
+		
+		
 
 
 
