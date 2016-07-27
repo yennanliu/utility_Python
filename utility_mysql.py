@@ -119,6 +119,37 @@ def insert_data_df_new_table():
 	except:
 		print ('insert df failed')
 
+def connect_mysql_local():
+	'''
+	account : root 
+	no password
+	db : testdb
+	table : memberdata
+	'''
+	try:
+		engine = create_engine('mysql+pymysql://root@localhost/testdb')
+		print ('Local MySQL connect success')
+		query="SELECT * FROM memberdata "
+		df = pd.read_sql_query(query, engine)
+		df.head()
+		return df 
+	except:
+		print ('Local MySQL connect failed')
+
+
+
+
+def insert_data_df_local_mysql():
+	try:
+		# db = dbname, table = offer 
+		engine = create_engine('mysql+pymysql://root@localhost/dbname')
+		df=pd.read_csv('offer.csv')
+		df.to_sql('offer', engine, if_exists = 'append')
+		print ('insert df OK')
+	except:
+		print ('insert df failed')
+
+
 		
 		
 		
