@@ -1,6 +1,7 @@
 
 
 from datetime import datetime
+import yaml
 
 
 def get_hr_min(x):
@@ -39,6 +40,17 @@ def check_cron(cronjobs):
             yield '{}:{} today {}'.format(hour_now,min_now,cron_content)
  
 
+def read_file():
+    output=[]
+    stram = open("crontab.yaml", "r")
+    return yaml.load(stram)
+
+
+def save_file(cronjob):
+    with open('crontab.yaml', 'w') as out_file:
+        yaml.safe_dump(cronjob, out_file, indent=4,allow_unicode=False)
+
+
 #=============================
 
 def pipeline(cronjobs):
@@ -46,25 +58,14 @@ def pipeline(cronjobs):
     for cron in pipeline_:
         print (cron)
 
-
-
-                      
 #=============================
-"""
-
-myluist=['30 1 /bin/run_me_daily',
- '45 * /bin/run_me_hourly',
- '* * /bin/run_me_every_minute',
- '* 19 /bin/run_me_sixty_times']
-
-mylist2=['30 19 /bin/run_me_daily',
- '45 * /bin/run_me_hourly',
- '* * /bin/run_me_every_minute',
- '* 19 /bin/run_me_sixty_times']
 
 
-"""
-#=============================
+if __name__ == '__main__':
+    cron_task =  read_file()
+    pipeline(cron_task)
+
+    
 
 
 
