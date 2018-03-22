@@ -1,4 +1,4 @@
-# python 2 
+# python 3 
 
 def filter_outside_uk(lat,lon):
     if (float(lat) < 58.576745 and float(lat) > 50.474865  
@@ -20,8 +20,7 @@ def main(df):
     
     example :
 
-        df[['sum', 'difference']] = df.apply(
-                                    lambda row: pd.Series(add_subtract(row['a'], row['b'])), axis=1)
+        df[['sum', 'difference']] = df.apply(lambda row: pd.Series(add_subtract(row['a'], row['b'])), axis=1)
     """
     df['located_UK'] = df.apply(lambda row : pd.Series(filter_outside_uk(row['LATITUDE'],row['LONGITUDE']))  ,axis=1)
     print (df['located_UK'].head(3))
