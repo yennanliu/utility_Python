@@ -1,6 +1,8 @@
 # python 3 
 
-
+# ref 
+#  http://pysftp.readthedocs.io/en/release_0.2.8/cookbook.html
+#  http://pysftp.readthedocs.io/en/release_0.2.8/pysftp.html
 import pandas as pd
 from ftplib import FTP
 import pysftp
@@ -13,7 +15,7 @@ import os
 # help function 
 # -------------------
 
-def access_to_sftp(file_path,host,username,private_key):
+def connect_to_sftp(file_path,host,username,private_key):
 
     srv = pysftp.Connection(host=host, username=username, private_key=private_key)
     # get current directory
@@ -45,9 +47,6 @@ def upload_to_sftp(connection,localpath):
 
 
 # -------------------
-
-
-
 
 
 
