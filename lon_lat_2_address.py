@@ -1,16 +1,19 @@
 # python 3 
 
 
+import pandas as pd
+import time
+import geocoder
+import datetime
+from geopy.geocoders import Nominatim
+from urllib.request import Request
+
 """
 
 intro 
 
 # working with geopy 
 # https://github.com/geopy/geopy/issues/262
-
-
-from geopy.geocoders import Nominatim
-from urllib.request import Request
 
 def get_geolocator():
     geolocator = Nominatim()
@@ -30,7 +33,7 @@ def get_geolocator():
 >>>location = get_geolocator().reverse("{},{}".format(lat,lon))
 >>>address = location.address
 >>>print (address)
->>> 143, Rue du Repos - Ruststraat, Uccle - Ukkel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1180, België / Belgique / Belgien
+>>>143, Rue du Repos - Ruststraat, Uccle - Ukkel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1180, België / Belgique / Belgien
 
 
 """
