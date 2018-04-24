@@ -38,6 +38,17 @@ def get_geolocator():
 
 """
 
+
+def get_geolocator():
+    geolocator = Nominatim()
+    requester = geolocator.urlopen
+    def requester_hack(req, **kwargs):
+        req = Request(url=req, headers=geolocator.headers)
+        return requester(req, **kwargs)
+    geolocator.urlopen = requester_hack
+    return geolocator
+
+
 def rev_geocoder_fixed(lat,lon):
     time.sleep(1)
     try:
@@ -47,7 +58,7 @@ def rev_geocoder_fixed(lat,lon):
         address = address.replace("'", "''")
     except:
         location = get_geolocator().reverse("{},{}".format(lat,lon))
-        address = location.address
+        address = location.address.replace("'", "''").replace("-", "''").replace("/", "''")
         #address=''
     return address
 
