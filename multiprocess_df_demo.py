@@ -19,11 +19,14 @@ from sklearn import datasets
 
 
 
+
 # make toy df 
 toydata = datasets.make_regression(n_samples=100,n_features=100)
 df_toydata = pd.DataFrame(i for i in toydata[0])
 
-# split df 
+
+# ---------------------------------------------
+# V1 
 
 
 def index_marks(nrows, chunk_size):
@@ -39,17 +42,38 @@ def print_df(df):
     print (df)
     #return pd.read_csv(filename)
 
-def main(df):
-    
+
+
+def main(df):  
     # set up your pool
-    pool = Pool(processes=4) # or whatever your hardware can support
-    
+    pool = Pool(processes=4) # or whatever your hardware can support  
     # get a list of df names   
     df_list = [df_split for df_split in split(df,3) ]
-
     # have your pool map the file names to dataframes
     df_list = pool.map(print_df, df)
     print ('df_list : ', df_list)
     # reduce the list of dataframes to a single dataframe
     combined_df = pd.concat(df_list, ignore_index=True)
+
+
+
+# ---------------------------------------------
+# V2 
+
+def demo():
+    """
+    ref 
+    https://stackoverflow.com/questions/37305014/python-running-n-number-of-functions-in-parallel
+    
+    """
+    def g(df):                   
+        for i in range(5): 
+            print (i)
+        print ('this is job log')
+        return i
+            #pass
+    pool = Pool(processes=5)     # 5 worker processes
+    print (pool.map(g, range(3)))  # 3 jobs, a list will be returned when all are finished
+
+
 
