@@ -19,7 +19,7 @@ bucket_name=os.environ['bucket_name']
 
 # -------------------------------------
 
-# 1) via boto resource 
+# 1) via boto3 resource  (#low-level functional API)
 s3 = boto3.resource('s3', region_name=region_name,
                     aws_access_key_id=aws_access_key_id,
                     aws_secret_access_key=aws_secret_access_key)
