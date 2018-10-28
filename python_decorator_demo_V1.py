@@ -152,21 +152,78 @@ print (' -------------------  DEMO 6 -------------------')
 # DEMO 6
 
 
+import time
+ 
+def timeit(func):
+    def wrapper():
+        start = time.clock()
+        func()
+        end =time.clock()
+        print  ('used:', end - start)
+    return wrapper
+ 
+@timeit
+def foo():
+    print ('in foo()')
+ 
+
+
+foo()
+
+
+print (' -------------------  DEMO 7 -------------------')
+# DEMO 7
+
+
+
+
+def my_deco(func):
+    def _my_deco(*args, **kwargs):
+        print ('check before run func() ... ')
+        if func(*args, **kwargs) < 5:
+            print ('to small.. ')
+        else:
+            print (' value OK .. ')
+        print ('after checking func() ...')
+    return _my_deco
+    
+    
+@my_deco
+def my_func(x,y):
+    print ('x+y =' , x+y)
+    return x+y
+    
+    
+
+my_func(1,2)
 
 
 
 
 
 
+print (' -------------------  DEMO 8 -------------------')
+# DEMO 8  
 
 
+def login(func):
+    def _login(*args, **kwargs):
+        if func(*args, **kwargs) == 'password':
+            print (' login success !')
+        else:
+            print (' login failed !')
+    return _login
+        
+    
+# login(myaccount(password))    
+@login
+def myaccount(password):
+    print (' proceed login ....')
+    return password
+    
 
 
-
-
-
-
-
-
+myaccount('test')
+myaccount('password')
 
 
