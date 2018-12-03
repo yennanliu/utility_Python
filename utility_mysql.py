@@ -28,6 +28,20 @@ import pprint
 localtime = time.asctime( time.localtime(time.time()) )
 
 
+def get_mysql_conn(host, user, database):
+        #conn = pymysql.connect(
+        #host = '127.0.0.1',
+        #port = 3306,
+        #user = 'root',
+        #db = 'local_dev')
+        conn = pymysql.connect(
+                host = host,
+                port = 3306,
+                user = user,
+                db =database)
+        return conn 
+
+
 def taxi_df():
 		# Make the HTTP request.
 	request_headers = {"api-key": "gWpVyvnoSuAeW1J27L7W4nNG4gbQwfVC"}
@@ -74,6 +88,7 @@ def sqlalchemy_connect():
 		return df 
 	except:
 		print ('MySQL connect failed')
+
 
 def save_data():
 	print (dt.datetime.today().strftime("%Y-%m-%d"))
@@ -149,13 +164,5 @@ def insert_data_df_local_mysql():
 	except:
 		print ('insert df failed')
 
-
 		
-		
-		
-
-
-
-
-
 
