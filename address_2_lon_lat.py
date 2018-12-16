@@ -173,7 +173,7 @@ def address_2_lonlat_hack_dev(x):
     print (x)
     time.sleep(1)  # let's see if sleep 1 per epoch is OK for limitation 
     # --------- API  1) GOOGLE MAP API 
-    results= get_google_results('Avenue Pierre Vander Biest 4')
+    results= get_google_results(x)
     print ('google API results :' , results)
     if [results['latitude'], results['longitude']] != [None,None]:
         return [results['latitude'], results['longitude']] 
