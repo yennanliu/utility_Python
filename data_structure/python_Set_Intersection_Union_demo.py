@@ -33,7 +33,7 @@ def main():
     # print(set1.difference(set2))
     print(set1 ^ set2)
     # print(set1.symmetric_difference(set2))
-    # 判断子集和超集
+    # check subset and superset 
     print(set2 <= set1)
     # print(set2.issubset(set1))
     print(set3 <= set1)
@@ -46,3 +46,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
