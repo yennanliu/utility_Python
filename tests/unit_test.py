@@ -40,6 +40,11 @@ class Test_CodeToTest_3(unittest.TestCase):
         code_to_test3.drop_from_db()
         call = 'drop table if exists some_table;'
         sqlite_execute_mock.execute.assert_called_with(call)
- 
+
+        # test insert_to_db
+        code_to_test3.insert_to_db()
+        call = '''INSERT INTO some_table(name,begin_date,end_date) VALUES(?,?,?) '''
+        sqlite_execute_mock.execute.assert_called_with(call)
+
 if __name__ == '__main__':
     pytest.main([__file__])
