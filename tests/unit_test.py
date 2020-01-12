@@ -6,11 +6,27 @@ sys.path.append("./mydevclass")
 from mydevclass import (code_to_test, code_to_test2, code_to_test3, code_to_test4,
                         script_to_test_1)
 import mock
+import psycopg2
 
-# @pytest.yield_fixture
-# def mock_DB():
-#     @mock.patch('obj.method')
-#     return mockDB
+
+# mock db connection
+@pytest.fixture(scope='session')
+def db_connection():
+    """
+    :return: psycopg2 connection class
+    """
+    db_settings = {
+        'database'        : 'app',
+        'user'            : 'app',
+        'host'            : 'app',
+        'port'            : 'app',
+        'password'        : 'app',
+        'application_name': 'app',
+    }
+    dbc = psycopg2.connect(**db_settings)
+    dbc.autocommit = True
+    return dbc
+
 
 class Test_CodeToTest_1(unittest.TestCase):
 
@@ -28,7 +44,6 @@ class Test_CodeToTest_1(unittest.TestCase):
 
     def TearDown(self):
         print ("Unit test TearDown...")
-
 
 class Test_CodeToTest_2(unittest.TestCase):
     @mock.patch('code_to_test2.sqlite3.connect')
@@ -79,16 +94,17 @@ class Test_script_to_test_1(unittest.TestCase):
         output = script_to_test_1.add_func(input_)
         self.assertEqual(False, output)
 
-# class Test_CodeToTest_4(unittest.TestCase):
+# class Test_CodeToTest_4_(unittest.TestCase):
+
 #     @mock.patch('code_to_test4.psycopg2.connect')
 #     def test_database_drop_table_call4(self, mock_postgre_connect):
 #         postgre_execute_mock = mock.Mock()
 #         mock_postgre_connect.return_value = postgre_execute_mock
-#         # test create_table 
+#         # test main
 #         code_to_test4.create_table()
-#         call  = "CREATE TABLE {} {}".format("some_table", "some_schema")
-#         call = execute('not called')
+#         call = "DROP TABLE if exists some_table"
 #         postgre_execute_mock.execute.assert_called_with(call)
+
 
 if __name__ == '__main__':
     pytest.main([__file__])

@@ -5,10 +5,12 @@ def create_table():
            database="some_database", 
            user="some_user",
            password="some_password")
+
+    print ("connect to postgre")
     cursor = conn.cursor()
     #with conn.cursor() as cursor:
-    sql = "CREATE TABLE {} {}".format("some_table", "some_schema")
-    #print (sql)
+    sql = "DROP TABLE if exists some_table"
+    print (sql)
     cursor.execute(sql)
     conn.commit()
     conn.close()
