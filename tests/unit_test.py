@@ -3,7 +3,8 @@ import pytest
 import sys
 sys.path.append(".")
 sys.path.append("./mydevclass")
-from mydevclass import code_to_test, code_to_test2, code_to_test3, code_to_test4
+from mydevclass import (code_to_test, code_to_test2, code_to_test3, code_to_test4,
+                        script_to_test_1)
 import mock
 
 # @pytest.yield_fixture
@@ -12,6 +13,10 @@ import mock
 #     return mockDB
 
 class Test_CodeToTest_1(unittest.TestCase):
+
+    def SetUp(self):
+        print ("Unit test SetUp...")
+
     @mock.patch('code_to_test.sqlite3.connect')
     def test_database_drop_table_call1(self, mock_sqlite3_connect):
         sqlite_execute_mock = mock.Mock()
@@ -20,6 +25,10 @@ class Test_CodeToTest_1(unittest.TestCase):
         code_to_test.main()
         call = 'drop table if exists some_table;'
         sqlite_execute_mock.execute.assert_called_with(call)
+
+    def TearDown(self):
+        print ("Unit test TearDown...")
+
 
 class Test_CodeToTest_2(unittest.TestCase):
     @mock.patch('code_to_test2.sqlite3.connect')
@@ -51,6 +60,24 @@ class Test_CodeToTest_3(unittest.TestCase):
         code_to_test3.insert_to_db()
         call = '''INSERT INTO some_table(name,begin_date,end_date) VALUES(?,?,?) '''
         sqlite_execute_mock.execute.assert_called_with(call)
+
+class Test_script_to_test_1(unittest.TestCase):
+    def test_add_func_equal(self):
+        input_ = 5 
+        expected = 10
+        output = script_to_test_1.add_func(input_)
+        self.assertEqual(expected, output)
+
+    def test_add_func_non_equal(self):
+        input_ = 5 
+        expected = 100
+        output = script_to_test_1.add_func(input_)
+        self.assertNotEqual(expected, output)
+
+    def test_add_func_input_type_error(self):
+        input_ = "abc"
+        output = script_to_test_1.add_func(input_)
+        self.assertEqual(False, output)
 
 # class Test_CodeToTest_4(unittest.TestCase):
 #     @mock.patch('code_to_test4.psycopg2.connect')
