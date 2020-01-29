@@ -6,7 +6,6 @@ import pandas as pd
 import boto3
 from boto3 import client
 
-
 # -------------------------------------
 # config 
 region_name=os.environ['region_name']
@@ -17,18 +16,8 @@ bucket_name=os.environ['bucket_name']
 s3_csv_path = os.environ['s3_csv_path']
 # -------------------------------------
 
-
-
-
 client = boto3.client('s3') 
 obj = client.get_object(Bucket=bucket_name, Key=s3_csv_path)
 grid_sizes = pd.read_csv(obj['Body']) # pandas df from csv 
 print (' S3 csv file overview : ', grid_sizes.head())
  
-
-
-
-
-
-
-

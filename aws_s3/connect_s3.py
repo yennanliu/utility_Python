@@ -4,7 +4,6 @@ import os
 import boto3
 from boto3 import client
 
-
 # -------------------------------------
 # config 
 region_name=os.environ['region_name']
@@ -13,8 +12,6 @@ aws_secret_access_key=os.environ['aws_secret_access_key']
 #bucket_name=os.environ['bucket_name']
 
 # -------------------------------------
-
-
 
 def get_connect_to_s3():
 	s3 = boto3.resource('s3', region_name=region_name,

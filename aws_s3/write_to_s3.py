@@ -12,8 +12,6 @@ try:
 except:
   print ('No S3 credential loaded')
 
-
-
 # ok to use 
 def save_to_S3(region_name,finename,bucketname):
   # https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html?highlight=upload#S3.Client.upload_file
@@ -29,9 +27,7 @@ def save_to_S3(region_name,finename,bucketname):
   except Exception as e:
     print (e)
     print ('upload failed')
-
-
-
+    
 # dev 
 def write_to_s3(log_data, folder_name, model_name,region_name,aws_access_key_id,aws_secret_access_key,bucket_name):
     try:
