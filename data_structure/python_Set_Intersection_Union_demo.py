@@ -43,7 +43,5 @@ def main():
     print(set1 >= set3)
     # print(set1.issuperset(set3))
 
-
 if __name__ == '__main__':
     main()
-
