@@ -21,7 +21,6 @@ $ python check_crontab.py
 5:16 tomorrow /bin/run_me_xxx
 
 ```
-
 with crontab.yaml
 
 ```
@@ -31,7 +30,3 @@ with crontab.yaml
 '* 19 /bin/run_me_every_minute',
 '* 5 /bin/run_me_xxx']
 ```
-
-
-
-

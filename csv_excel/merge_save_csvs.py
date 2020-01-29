@@ -8,4 +8,3 @@ df_final = pd.concat([pd.read_csv(f, index_col=0, header=None) for f in files], 
 #df_final.to_csv('df_final.csv')
 # save to compression file 
 df_final.to_csv('df_final_gz.gz', compression='gzip')
-

@@ -1,8 +1,5 @@
-
-
 from datetime import datetime
 import yaml
-
 
 def get_hr_min(x):
     # get hour, minute from crontab
@@ -21,7 +18,6 @@ def get_hr_min(x):
     if (hour == '*') and (minute == '*'):
         return int(current_hr), int(current_min)
 
-
 def check_cron(cronjobs):
     for cronjob in cronjobs:
         # get current time 
@@ -39,34 +35,20 @@ def check_cron(cronjobs):
         if currenttime - crontime == 0:
             yield '{}:{} today {}'.format(hour_now,min_now,cron_content)
  
-
 def read_file():
     output=[]
     stram = open("crontab.yaml", "r")
     return yaml.load(stram)
 
-
 def save_file(cronjob):
     with open('crontab.yaml', 'w') as out_file:
         yaml.safe_dump(cronjob, out_file, indent=4,allow_unicode=False)
-
-
-#=============================
 
 def pipeline(cronjobs):
     pipeline_ = check_cron(cronjobs)     
     for cron in pipeline_:
         print (cron)
 
-#=============================
-
-
 if __name__ == '__main__':
     cron_task =  read_file()
     pipeline(cron_task)
-
-    
-
-
-
-                               
