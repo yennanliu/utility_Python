@@ -1,4 +1,3 @@
-
 #################################################################
 # SCRIPT DEMO HOW TO CACHE ALREADY-COMPUTED VALUES   
 #################################################################
@@ -57,7 +56,6 @@ def cached(cacher: Cacher):
 
 # # create cache object instance 
 # cacher = Cacher()
-
 # # use the cache object instance  on add_one func 
 # @cached(cacher)
 # def add_one(x):

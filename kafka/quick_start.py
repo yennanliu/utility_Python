@@ -14,7 +14,6 @@ future = producer.send('my_topic' , key= b'my_key', value= b'my_value', partitio
 result = future.get(timeout= 10)
 print(result)
 
-
 ##############################################
 # V2 
 ##############################################
@@ -32,7 +31,6 @@ producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
 future = producer.send('my_topic' , key= b'my_key', value= b'my_value', partition= 0)
 result = future.get(timeout= 10)
 print(result)
-
 
 ##############################################
 # V3 
