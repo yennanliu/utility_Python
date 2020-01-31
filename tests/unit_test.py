@@ -8,7 +8,6 @@ from mydevclass import (code_to_test, code_to_test2, code_to_test3, code_to_test
 import mock
 import psycopg2
 
-
 # mock db connection
 @pytest.fixture(scope='session')
 def db_connection():
@@ -26,7 +25,6 @@ def db_connection():
     dbc = psycopg2.connect(**db_settings)
     dbc.autocommit = True
     return dbc
-
 
 class Test_CodeToTest_1(unittest.TestCase):
 
@@ -95,7 +93,6 @@ class Test_script_to_test_1(unittest.TestCase):
         self.assertEqual(False, output)
 
 # class Test_CodeToTest_4_(unittest.TestCase):
-
 #     @mock.patch('code_to_test4.psycopg2.connect')
 #     def test_database_drop_table_call4(self, mock_postgre_connect):
 #         postgre_execute_mock = mock.Mock()

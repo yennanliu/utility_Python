@@ -1,15 +1,8 @@
-
 # ref :  https://gist.github.com/stefanthoss/364b2a99521d5bb76d51
-
 # ref : https://github.com/PyMySQL/PyMySQL
-
 # ref : http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_sql.html
-
 # ref : http://stackoverflow.com/questions/10154633/load-csv-data-into-mysql-in-python
-
 # ref : http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_sql.html
-
-
 
 import pymysql
 from pymysql import * 
@@ -24,9 +17,7 @@ import urllib, json
 import pandas as pd, numpy as np
 import pprint
 
-
 localtime = time.asctime( time.localtime(time.time()) )
-
 
 def get_mysql_conn(host, user, database):
         #conn = pymysql.connect(
@@ -40,7 +31,6 @@ def get_mysql_conn(host, user, database):
                 user = user,
                 db =database)
         return conn 
-
 
 def taxi_df():
 		# Make the HTTP request.
@@ -62,7 +52,6 @@ def taxi_df():
 	print (df)	
 	return (df)
 
-
 def pymysql_connect():
 	try:
 		conn= pymysql.connect(host=dburl,port = 3306,user='root',password=password,db='mysqltest1',cursorclass=pymysql.cursors.DictCursor)
@@ -76,8 +65,6 @@ def pymysql_connect():
 	except:
 		print ('MySQL connect failed')
 
-
-
 def sqlalchemy_connect():
 	try:
 		engine = create_engine('mysql+pymysql://<user>:<password>@<host>[:<port>]/<dbname>')
@@ -89,13 +76,11 @@ def sqlalchemy_connect():
 	except:
 		print ('MySQL connect failed')
 
-
 def save_data():
 	print (dt.datetime.today().strftime("%Y-%m-%d"))
 	data = 	sqlalchemy_connect()
 	data.to_csv('/Users/GGV/Desktop/sg_data/taxi_data %s.csv'%localtime)
 	print('save data OK')
-
 
 def insert_data_csv():
 	try:
@@ -112,9 +97,6 @@ def insert_data_csv():
 	except:
 		print ('insert csv failed')
 		
-		
-
-
 def insert_data_df_new_table():
 	
 	'''
@@ -151,9 +133,6 @@ def connect_mysql_local():
 	except:
 		print ('Local MySQL connect failed')
 
-
-
-
 def insert_data_df_local_mysql():
 	try:
 		# db = dbname, table = offer 
@@ -163,6 +142,3 @@ def insert_data_df_local_mysql():
 		print ('insert df OK')
 	except:
 		print ('insert df failed')
-
-		
-

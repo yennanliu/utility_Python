@@ -1,12 +1,7 @@
-
 """
-
 credit 
 https://github.com/AlexIoannides/pyspark-example-project/blob/master/etl_job.py
-
 """
-
-
 """
 etl_job.py
 ~~~~~~~~~~

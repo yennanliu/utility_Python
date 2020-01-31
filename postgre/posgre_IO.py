@@ -1,13 +1,9 @@
 # python 3 
-
-
 import psycopg2
 from sqlalchemy import create_engine
 from pytz import timezone
 import datetime
 import os
-
-
 
 def get_data_from_db(sql, db_url):
     try:
@@ -24,9 +20,6 @@ def get_data_from_db(sql, db_url):
     except Exception as e:
         print (e)
         print ('fail to get data from db')
-
-
-
 
 def write_data_to_db(df, table_name,db_url):
     try:
@@ -45,9 +38,4 @@ def write_data_to_db(df, table_name,db_url):
     except Exception as e:
         print (e)
         print ('fail to write to db')
-
-
-
-
-
         
