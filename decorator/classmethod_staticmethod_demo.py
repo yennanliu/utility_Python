@@ -16,9 +16,10 @@ class PlayerCharacter:
     @classmethod
     def adding_things_classmethod(cls, num1, num2): 
         """
-        with the decorator @classmethod, the method can be used under class directly (PlayerCharacter.adding_things()),
-        but no need to initiate first ( no need to run p = PlayerCharacter('judy', 10) first) 
-        cls : class (PlayerCharacter in this case), means input class as one of the input
+        with the decorator @classmethod, the method can be used with class directly (PlayerCharacter.adding_things()),
+        but no need to instantiate first ( no need to run p = PlayerCharacter('judy', 10) first) 
+        
+        cls : class ("PlayerCharacter" in this case), means input class as one of the input
         """
         print ("this is classmethod")
         return ( num1 + num2 )
@@ -38,7 +39,8 @@ class PlayerCharacter:
 p = PlayerCharacter('judy', 10)
 p.shout()
 p.adding_things(10,20)
-# via below 2 methods, no need to initiate the class, but can use methods in class under @classmethod, @staticmethod decorators
+# via below 2 methods, no need to instantiate the class, 
+# but can use methods in class under @classmethod, @staticmethod decorators
 # classmethod demo
 PlayerCharacter.adding_things_classmethod(9, 10)
 # staticmethod demo
