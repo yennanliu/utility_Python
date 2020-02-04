@@ -22,6 +22,7 @@ class PlayerCharacter:
         """
         print ("this is classmethod")
         return ( num1 + num2 )
+        #return cls("Teddy", 10, 20) # can also return class object
 
     @staticmethod
     def adding_thing_staticmethod(num1, num2): 
@@ -37,7 +38,8 @@ class PlayerCharacter:
 p = PlayerCharacter('judy', 10)
 p.shout()
 p.adding_things(10,20)
+# via below 2 methods, no need to initiate the class, but can use methods in class under @classmethod, @staticmethod decorators
 # classmethod demo
 PlayerCharacter.adding_things_classmethod(9, 10)
-# classmethod demo
+# staticmethod demo
 PlayerCharacter.adding_thing_staticmethod(9, 10)
