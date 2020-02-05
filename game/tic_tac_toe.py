@@ -3,7 +3,7 @@ class TicTacToe:
     def __init__(self):
         self.matrix = [ [None]*3 for _ in range(3) ]
 
-    def check_win(self):
+    def check_x_axis(self):
         # x axis
         for i in range(len(self.matrix)):
             if (self.matrix[i].count("x") == 3 ):
@@ -14,6 +14,7 @@ class TicTacToe:
                 print (" {} win the game".format("y"))
                 return True, "y"
 
+    def check_y_axis(self):
         # y axis
         for j in range(len(self.matrix[1])):
             count_x, count_y = 0, 0 
@@ -27,10 +28,41 @@ class TicTacToe:
                 elif count_y == 3:
                     return True, "y"
 
-        # diagonal axis 
-        # pass 
+    def check_left_diagonal(self):
+        # left diagonal  
+        sum_of_left_d_X = sum([self.matrix[i][i] == "x" for i in range(len(self.matrix))])
+        sum_of_left_d_y = sum([self.matrix[i][i] == "y" for i in range(len(self.matrix))])
 
-        #return False, "even"
+        if sum_of_left_d_X == 3:
+            return True, "x"
+        elif sum_of_left_d_y == 3:
+            return True, "y"
+
+    def check_right_diagonal(self):
+        # right diagonal
+        sum_of_left_d_X = sum([self.matrix[i][len(self.matrix)-i-1] == "x" for i in range(len(self.matrix))])
+        sum_of_left_d_y = sum([self.matrix[i][len(self.matrix)-i-1] == "y" for i in range(len(self.matrix))])
+
+        if sum_of_left_d_X == 3:
+            return True, "x"
+        elif sum_of_left_d_y == 3:
+            return True, "y"
+
+    def check_win(self):
+        if self.check_x_axis():
+            return self.check_x_axis()
+
+        elif self.check_y_axis():
+            return self.check_y_axis()
+
+        elif self.check_left_diagonal():
+            return self.check_left_diagonal()
+
+        elif self.check_right_diagonal():
+            return self.check_right_diagonal()
+
+        #elif self.check_occupied():
+        #    return (False, "even")
 
     def check_occupied(self):
         for i in range(len(self.matrix)):
@@ -67,10 +99,11 @@ class TicTacToe:
 
         if self.check_win():
             result =  self.check_win()
+            print (" {} win the game".format(result[1]))
             return "{} win!".format(result[1])
         else:
             return "even"
-
+  
 if __name__ == '__main__':
     t_game = TicTacToe()
     t_game.operate_game()
