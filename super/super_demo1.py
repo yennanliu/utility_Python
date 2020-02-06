@@ -7,7 +7,9 @@ class User:
 
 class Wizard(User):
     def __init__(self, name, power, email):
-        # 1st way to use init from  original class's (User) method via this inheritance
+        """
+        1st way to use init from  original class's (User) method via this inheritance
+        """
         User.__init__(self, email)
         self.name = name
         self.power = power
@@ -17,9 +19,9 @@ class Wizard(User):
 
 class Knight(User):
     def __init__(self, name, power, email):
-        # --------------------------
+        """
         # Via the "Super" syntax, we have our 2nd way to use init from  original class's (User) method 
-        # --------------------------
+        """
         super().__init__(email)
         self.name = name
         self.power = power
