@@ -20,9 +20,17 @@ hello()
 bye()
 
 
-# 2) Decorator : put to-be-decorator-func as input into decorator func
+# 2) Decorator : put to-be-decorated-func as input into decorator func
 """
 above decorator operations are literally as same as below:
+i.e. :
+     a) decorator_func(func) 
+
+     is as same as 
+
+     b) @decorator_func
+         def func()
+     
 """
 def hello():
     print ("helooooooooooo") 
@@ -32,6 +40,6 @@ hello2()
 
 def bye():
     print ("see ya later") 
-    
+
 bye2 = my_decorator(bye)
 bye2()
