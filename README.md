@@ -1,6 +1,6 @@
-# utility_python
+# Utility_Python
 
-- `Collection of python concept/working code` 
+- `Collection of python working scripts` and `OOP` basic demo
 
 
 ### Development 
