@@ -1,4 +1,4 @@
-# build  __iter__, __next__ (generator main feature) from scrath
+# build  __iter__, __next__ (generator main feature) from scratch
 class MyGen():
     current = 0 
     def __init__(self, first, last):
@@ -13,6 +13,7 @@ class MyGen():
             num = MyGen.current 
             MyGen.current += 1 
             return num 
+        #print (StopIteration)
         raise StopIteration 
 
 gen = MyGen(0, 100)
