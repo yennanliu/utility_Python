@@ -11,4 +11,4 @@ for item in generator_func(num):
 # range VS list(range) is a good example of generator VS non-generator
 # while range is a generator method, so don't really save data with extra memory,
 # However, list will have to save everything in-memory which would 
-# cost must memory resource and slow speed 
+# cost lots of memory resource and bad efficiency 
