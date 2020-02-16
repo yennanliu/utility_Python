@@ -24,6 +24,8 @@
 ### Ref 
 
 - `Functional programming (fp)` VS `Object-oriented programming (OOP)`
+	- https://www.coursera.org/lecture/programming-languages-part-c/oop-versus-functional-decomposition-mKEXO
+	- https://stackoverflow.com/questions/2984460/do-you-use-python-mostly-for-its-functional-or-object-oriented-features
 
 - Regular expression doc 
 	- https://www.w3schools.com/python/python_regex.asp
