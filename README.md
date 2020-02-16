@@ -23,6 +23,8 @@
 
 ### Ref 
 
+- `Functional programming (fp)` VS `Object-oriented programming (OOP)`
+
 - Regular expression doc 
 	- https://www.w3schools.com/python/python_regex.asp
 
