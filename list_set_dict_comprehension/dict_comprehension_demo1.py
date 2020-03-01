@@ -4,10 +4,10 @@ Python dict comprehension demo 1
 comprehension can make code simple/elegent, but beware of the tradeoff between readability and simplicity 
 """
 sample_dict = {
-	
-	'a' : 1,
-	'b' : 2,
-	'c' : 3
+    
+    'a' : 1,
+    'b' : 2,
+    'c' : 3
 }
 
 my_dict1 = { key:value for key, value in sample_dict.items()}
