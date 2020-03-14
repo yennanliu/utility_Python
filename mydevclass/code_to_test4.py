@@ -1,6 +1,6 @@
-import psycopg2
 
 def create_table():
+    import psycopg2
     conn = psycopg2.connect(
            database="some_database", 
            user="some_user",
