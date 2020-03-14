@@ -6,25 +6,25 @@ sys.path.append("./mydevclass")
 from mydevclass import (code_to_test, code_to_test2, code_to_test3, code_to_test4,
                         script_to_test_1)
 import mock
-import psycopg2
+# import psycopg2
 
-# mock db connection
-@pytest.fixture(scope='session')
-def db_connection():
-    """
-    :return: psycopg2 connection class
-    """
-    db_settings = {
-        'database'        : 'app',
-        'user'            : 'app',
-        'host'            : 'app',
-        'port'            : 'app',
-        'password'        : 'app',
-        'application_name': 'app',
-    }
-    dbc = psycopg2.connect(**db_settings)
-    dbc.autocommit = True
-    return dbc
+# # mock db connection
+# @pytest.fixture(scope='session')
+# def db_connection():
+#     """
+#     :return: psycopg2 connection class
+#     """
+#     db_settings = {
+#         'database'        : 'app',
+#         'user'            : 'app',
+#         'host'            : 'app',
+#         'port'            : 'app',
+#         'password'        : 'app',
+#         'application_name': 'app',
+#     }
+#     dbc = psycopg2.connect(**db_settings)
+#     dbc.autocommit = True
+#     return dbc
 
 class Test_CodeToTest_1(unittest.TestCase):
 
