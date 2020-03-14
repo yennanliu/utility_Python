@@ -42,5 +42,6 @@
 
 - Python `Mock` library intro
 	- https://realpython.com/python-mock-library/#patch
+	- https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.side_effect
 		- A `.return_value` defines what the method will return
 		- A `.side_effect` defines what happens when you call the mocked function.
