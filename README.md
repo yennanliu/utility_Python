@@ -42,3 +42,5 @@
 
 - Python `Mock` library intro
 	- https://realpython.com/python-mock-library/#patch
+		- A `.return_value` defines what the method will return
+		- A `.side_effect` defines what happens when you call the mocked function.
