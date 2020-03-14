@@ -39,3 +39,6 @@
 - Unit test mock DB func with python 
 	- https://www.stevenmaude.co.uk/posts/how-to-use-mock-in-python-to-mock?fbclid=IwAR15w5IZesgbksFYkp_HBxMXRVk2ip1LMnZ6J3Jf4_LjXuaQLPzCNk1x_58
 	- https://stackoverflow.com/questions/58873971/python-mock-multiple-queries-in-a-function-using-pytest-mock?fbclid=IwAR3Ouw0im_iFT6PBIclw5lLwNXs3lCTfayQdmZdYfYEpoFyLDmzHVMnf6zQ
+
+- Python `Mock` library intro
+	- https://realpython.com/python-mock-library/#patch
