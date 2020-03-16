@@ -26,9 +26,9 @@ def test_is_weekday():
     datetime.datetime.today.return_value = tuesday
     # Test Tuesday is a weekday
     #print ("is_weekday()", is_weekday())
-    assert (is_weekday() == False)
+    assert (is_weekday() == True)
 
     ###  Mock .today() to return Saturday ###
     datetime.datetime.today.return_value = saturday
     # Test Saturday is not a weekday
-    assert not (is_weekday() == True)
+    assert not (is_weekday() == False)
