@@ -33,10 +33,9 @@ class TestMock(unittest.TestCase):
         response_mock.json.return_value = {'response': '123'}
         return response_mock
 
-    def test_query_db(self):
+    def test_create_db_engine(self):
         sqlalchemy.create_engine.side_effect = self.fake_response
         assert create_db_engine()['response'] == '123'
-
 
 if __name__ == '__main__':
     unittest.main()
