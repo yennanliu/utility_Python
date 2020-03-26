@@ -7,12 +7,13 @@ from sqlalchemy.exc import DatabaseError
 class TestMyFunc(unittest.TestCase):
 
     @patch('my_db_utils.sqlalchemy')
-    def test_my_call_api_func(self, mock_sqlalchemy):
+    def test_get_db_conn(self, mock_sqlalchemy):
         mock_sqlalchemy.create_engine.side_effect = DatabaseError
-        #with self.assertRaises(DatabaseError):
-            #get_db_conn("abc", "def", "ijk")
+        mock_sqlalchemy.get_conn.return_value = "db_conn"
         get_db_conn()
+        
         mock_sqlalchemy.create_engine.assert_called_once()
+        assert mock_sqlalchemy.get_conn() == "db_conn"
 
 
 if __name__ == '__main__':
