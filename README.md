@@ -38,6 +38,9 @@
 
 - Python test tutorial
 	- https://realpython.com/tutorials/testing/
+	- Use a `decorator` : when all of the code in your test function body uses a mock.
+	- Use a c`ontext manager` : when some of the code in your test function uses a mock and other code references the actual function.
+	- Use a `patcher` :  when you need to explicitly start and stop mocking a function across multiple tests (e.g. the setUp() and tearDown() functions in a test class).
 
 - Unit test mock DB func with python 
 	- https://www.stevenmaude.co.uk/posts/how-to-use-mock-in-python-to-mock?fbclid=IwAR15w5IZesgbksFYkp_HBxMXRVk2ip1LMnZ6J3Jf4_LjXuaQLPzCNk1x_58
