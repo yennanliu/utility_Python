@@ -1,8 +1,7 @@
-# https://docs.python.org/3/library/fileinput.html
+# https://stackoverflow.com/questions/4617034/how-can-i-open-multiple-files-using-with-open-in-python
 
-import fileinput
-from fileinput import FileInput
+with open('stream/spam.txt', 'r') as a, \
+     open('stream/eggs.txt', 'r') as b:
 
-with FileInput(files=('spam.txt', 'eggs.txt')) as input:
-    for line in input:
+     for line in zip(a.readlines(), b.readlines()):
         print (line)
