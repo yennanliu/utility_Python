@@ -1,3 +1,5 @@
+# https://zhuanlan.zhihu.com/p/45535784
+
 import functools
 
 def add(a, b):

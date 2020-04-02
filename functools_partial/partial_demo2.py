@@ -1,3 +1,5 @@
+# https://zhuanlan.zhihu.com/p/45535784
+
 def outer(func):
     @functools.wraps(func)
     def inner(*args, **kwargs):
