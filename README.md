@@ -55,3 +55,5 @@
 - Python `interface` intro
 	- https://realpython.com/python-interface/
 
+- pytest with fixture
+	- https://docs.pytest.org/en/latest/fixture.html
