@@ -1,6 +1,8 @@
 # Utility_Python
 
-- `Collection of python working scripts` and `OOP` basic demo
+- Python basics demo
+- `Collection of python working scripts` 
+- python `OOP` basic demo
 
 
 ### Development 
@@ -22,6 +24,9 @@
 ```
 
 ### Ref 
+
+<details>
+<summary>Ref</summary>
 
 - `Functional programming (fp)` VS `Object-oriented programming (OOP)`
 	- https://www.coursera.org/lecture/programming-languages-part-c/oop-versus-functional-decomposition-mKEXO
@@ -57,3 +62,5 @@
 
 - pytest with fixture
 	- https://docs.pytest.org/en/latest/fixture.html
+
+</details>
