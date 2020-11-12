@@ -7,21 +7,22 @@
 
 ### Development 
 
+<details>
+<summary>Development</summary>
+
 ```bash
 (ds_dash) yennanliu@yennanliu-MBP:~/utility_python(master⚡) » pytest -v tests
-
 # ============================ test session starts =============================
 # platform darwin -- Python 3.5.4, pytest-5.0.1, py-1.8.0, pluggy-0.12.0 -- /Users/yennanliu/anaconda3/envs/ds_dash/bin/python
 # cachedir: .pytest_cache
 # rootdir: /Users/yennanliu/utility_python
 # plugins: celery-4.2.1
 # collected 1 item                                                             
-
 # tests/unit_test.py::CodeToTestTestCase::test_database_drop_table_call PASSED [100%]
-
 # ========================== 1 passed in 0.05 seconds ==========================
-
 ```
+
+</details>
 
 ### Ref 
 
