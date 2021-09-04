@@ -21,6 +21,9 @@ class PostgreIO:
         self.database = cfg['database']
 
     def connect(self):
+        """
+        method get conn, cursor
+        """
         try:
             conn = psycopg2.connect(
                 user=self.user,
@@ -35,6 +38,9 @@ class PostgreIO:
             print ("Error while connecting to postgre", e)
 
     def run_sql(self, query):
+        """
+        method simply execute sql command
+        """
         try:
             conn, cursor = self.connect()
             print (query)
@@ -43,6 +49,30 @@ class PostgreIO:
             print ("query OK")
         except Exception as e:
             print ("query failed", e)
+        finally:
+            if conn:
+                cursor.close()
+                conn.close()
+
+    def create_table(self, schema, query):
+        pass
+
+    def insert_to_db(self, query):
+        pass
+
+    def query_sql(self, query):
+        results = []
+        try:
+            conn, cursor = self.connect()
+            print (query)
+            cursor.execute(query)
+            rows = cursor.fetchall()
+            for row in rows:
+                results.append(row)
+            print ("query sql OK")
+            return results
+        except Exception as e:
+            print ("query sql failed", e)
         finally:
             if conn:
                 cursor.close()
