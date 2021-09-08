@@ -8,9 +8,13 @@ https://docs.python.org/3/library/socket.html
 https://steelkiwi.com/blog/working-tcp-sockets/
 
 2) Commands
-plz use below curl commands send data via CLI
-nc -lk 9999
+python server.py
 
+3) client.py
+https://github.com/yennanliu/utility_Python/blob/master/stream/client.py
+
+4) QA 
+plz use below curl commands send data via CLI
 curl -d "param1=value1&param2=value2" -X POST http://localhost:9999
 curl -d "123123" -X POST http://localhost:9999
 curl -d "HELLO WORLD" -X POST http://localhost:9999

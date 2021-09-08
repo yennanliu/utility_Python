@@ -4,8 +4,11 @@ import socket, time
 1) Ref
 https://clay-atlas.com/blog/2019/10/15/python-chinese-tutorial-socket-tcp-ip/
 
-
 2) Commands
+python client.py
+
+3) server.py
+https://github.com/yennanliu/utility_Python/blob/master/stream/server.py
 """
 
 class Client:
@@ -33,5 +36,3 @@ class Client:
 if __name__ == '__main__':
     c = Client()
     c.send_endpoint()
-
-
