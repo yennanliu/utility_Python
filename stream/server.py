@@ -20,20 +20,15 @@ class Server:
     def __init__(self):
 
         self.host = '127.0.0.1'
-        self.port = 7777
+        self.port = 9999
 
     def read_endpoint(self):
 
-        HOST = '127.0.0.1'
-        PORT = 9999
-
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        #server.bind((self.host, self.self))
-        server.bind((HOST, PORT))
+        server.bind((self.host, self.port))
         server.listen(1)
 
         while True:
-
             conn, addr = server.accept()
             clientMessage = str(conn.recv(1024), encoding='utf-8')
             print('Client message is:', clientMessage)
