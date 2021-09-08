@@ -37,6 +37,11 @@ class Server:
             clientMessage = str(conn.recv(1024), encoding='utf-8')
             print('Client message is:', clientMessage)
 
+            # save to file
+            with open('output.txt', 'a') as f:
+                f.write(clientMessage)
+        f.close()
+
 if __name__ == '__main__':
     s = Server()
     s.read_endpoint()

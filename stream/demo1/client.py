@@ -25,7 +25,7 @@ class Client:
         counter = 0
         
         while True:
-            _client_msg = client_msg + str(counter)
+            _client_msg = client_msg + str(counter) + "\n"
             client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             ### NOTE : here we use client.connect, rather than client.bind()
             client.connect((self.host, self.port))
