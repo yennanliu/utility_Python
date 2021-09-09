@@ -24,8 +24,8 @@ class Client:
     def send_endpoint(self):
 
         client_msgs = ['hello from client! ',
-                      '123 ',
-                      '5345345 defgge g 34435643 ',
+                      '123456 ',
+                      'aaabbbccc abc abc ',
                       ' ??? ',
                       '']
 
@@ -38,7 +38,7 @@ class Client:
             ### NOTE : here we use client.connect, rather than client.bind()
             client.connect((self.host, self.port))
             client.sendall(_client_msg.encode())
-            time.sleep(3)
+            time.sleep(1)
             counter += 1
 
 if __name__ == '__main__':

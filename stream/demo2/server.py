@@ -1,4 +1,6 @@
 import socket
+from _thread import *
+import threading
 
 """
 SERVER V2 : consider scalability
@@ -38,11 +40,27 @@ class Server:
         # define recv_bufsize, so we can really receive and cut off on each incoming event
         self.recv_bufsize = 22
 
+        self.print_lock = threading.Lock()
+
+
+    def threaded(self, conn):
+        
+        while True:
+
+            clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
+            print('Client message is:', clientMessage)
+            print ("thread id :", threading.current_thread().name)
+            self.print_lock.release()
+
+            break
+
+        conn.close()
+
     def read_endpoint(self):
 
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         server.bind((self.host, self.port))
-        server.listen(1)
+        server.listen(5)
 
         while True:
             conn, addr = server.accept()
@@ -54,6 +72,10 @@ class Server:
             The return value is a bytes object representing the data received. 
             The maximum amount of data to be received at once is specified by bufsize. 
             """
+            # get lock
+            self.print_lock.acquire()
+            start_new_thread(self.threaded, (conn,))
+
             clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
             print('Client message is:', clientMessage)
 
@@ -66,6 +88,8 @@ class Server:
             """
             with open('output.txt', 'a') as f:
                 f.write(clientMessage)
+
+        server.close()
 
 if __name__ == '__main__':
     s = Server()
