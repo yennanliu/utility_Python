@@ -8,6 +8,8 @@ SERVER V2 : consider scalability
 Sockets are byte streams, not message streams
 http://stupidpythonideas.blogspot.com/2013/05/sockets-are-byte-streams-not-message.html
 
+https://stackoverflow.com/questions/17667903/python-socket-receive-large-amount-of-data
+
 2) Commands
 python server.py
 
@@ -50,9 +52,14 @@ class Server:
             print('Client message is:', clientMessage)
 
             # save to file
+            """
+            https://www.w3schools.com/python/python_file_write.asp
+
+            "a" - Append - will append to the end of the file
+            "w" - Write - will overwrite any existing content
+            """
             with open('output.txt', 'a') as f:
                 f.write(clientMessage)
-        f.close()
 
 if __name__ == '__main__':
     s = Server()

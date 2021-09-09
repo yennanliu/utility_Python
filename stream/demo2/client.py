@@ -1,4 +1,4 @@
-import socket, time
+import socket, time, random
 
 """
 CLIENT V2 : consider scalability
@@ -23,11 +23,16 @@ class Client:
 
     def send_endpoint(self):
 
-        client_msg = 'hello from client! '
+        client_msgs = ['hello from client! ',
+                      '123 ',
+                      '5345345 defgge g 34435643 ',
+                      ' ??? ',
+                      '']
 
         counter = 0
         
         while True:
+            client_msg = client_msgs[random.randint(0, len(client_msgs)-1)]
             _client_msg = client_msg + str(counter) + "\n"
             client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             ### NOTE : here we use client.connect, rather than client.bind()
