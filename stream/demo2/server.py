@@ -1,13 +1,12 @@
 import socket
 
 """
-SERVER V1 : basic implementation
+SERVER V2 : consider scalability
 
 1) Ref
-https://clay-atlas.com/blog/2019/10/15/python-chinese-tutorial-socket-tcp-ip/
 
-https://docs.python.org/3/library/socket.html
-https://steelkiwi.com/blog/working-tcp-sockets/
+Sockets are byte streams, not message streams
+http://stupidpythonideas.blogspot.com/2013/05/sockets-are-byte-streams-not-message.html
 
 2) Commands
 python server.py
@@ -28,6 +27,9 @@ class Server:
         self.host = '127.0.0.1'
         self.port = 9999
 
+        # define recv_bufsize, so we can really receive and cut off on each incoming event
+        self.recv_bufsize = 22
+
     def read_endpoint(self):
 
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -36,7 +38,15 @@ class Server:
 
         while True:
             conn, addr = server.accept()
-            clientMessage = str(conn.recv(1024), encoding='utf-8')
+            """
+            https://docs.python.org/3/library/socket.html
+
+            socket.recv(bufsize[, flags])
+            Receive data from the socket. 
+            The return value is a bytes object representing the data received. 
+            The maximum amount of data to be received at once is specified by bufsize. 
+            """
+            clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
             print('Client message is:', clientMessage)
 
             # save to file
