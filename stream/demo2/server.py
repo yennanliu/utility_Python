@@ -3,6 +3,12 @@ import socket
 """
 SERVER V2 : consider scalability
 
+- multi thread
+    - https://www.geeksforgeeks.org/socket-programming-multi-threading-python/
+- async
+- file IO enhancement
+
+
 1) Ref
 
 Sockets are byte streams, not message streams
