@@ -1,15 +1,17 @@
+# python 3
+
 import socket
 from _thread import *
 import threading
 
 """
-SERVER V2 : consider scalability
+SERVER V2 : consider scalability (multi thread)
 
-- multi thread
-    - https://www.geeksforgeeks.org/socket-programming-multi-threading-python/
-- async
-- file IO enhancement
-
+- Ideas
+    - multi thread
+        - https://www.geeksforgeeks.org/socket-programming-multi-threading-python/
+    - async
+    - file IO enhancement
 
 1) Ref
 
@@ -33,6 +35,7 @@ curl -d "HELLO WORLD" -X POST http://localhost:9999
 5) clear app using port
 lsof -i tcp:<port> 
 """
+
 class Server:
 
     def __init__(self):
@@ -44,7 +47,6 @@ class Server:
         self.recv_bufsize = 1024
 
         self.print_lock = threading.Lock()
-
 
     def threaded(self, conn):
         
@@ -58,7 +60,7 @@ class Server:
 
         conn.close()
 
-    def read_endpoint(self):
+    def run(self):
 
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         server.bind((self.host, self.port))
@@ -96,4 +98,4 @@ class Server:
 
 if __name__ == '__main__':
     s = Server()
-    s.read_endpoint()
+    s.run()

@@ -1,7 +1,9 @@
+# python 3
+
 import socket, time, random
 
 """
-CLIENT V2 : consider scalability
+CLIENT V2 : consider scalability (multi thread)
 
 1) Ref
 
@@ -35,7 +37,7 @@ class Client:
                              {"timetamp":1629857927,"user_id":"u0003","transaction_id":"","event_type":"register","platform":"mobile","os":"android","version":"pixel"}
                              ]
 
-    def send_endpoint(self):
+    def run(self):
 
         msgs = self.client_msgs2
 
@@ -54,4 +56,4 @@ class Client:
 
 if __name__ == '__main__':
     c = Client()
-    c.send_endpoint()
+    c.run()
