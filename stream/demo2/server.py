@@ -29,6 +29,9 @@ plz use below curl commands send data via CLI
 curl -d "param1=value1&param2=value2" -X POST http://localhost:9999
 curl -d "123123" -X POST http://localhost:9999
 curl -d "HELLO WORLD" -X POST http://localhost:9999
+
+5) clear app using port
+lsof -i tcp:<port> 
 """
 class Server:
 
@@ -48,7 +51,6 @@ class Server:
         while True:
 
             clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
-            print('Client message is:', clientMessage)
             print ("thread id :", threading.current_thread().name)
             self.print_lock.release()
 
@@ -72,12 +74,13 @@ class Server:
             The return value is a bytes object representing the data received. 
             The maximum amount of data to be received at once is specified by bufsize. 
             """
+
             # get lock
             self.print_lock.acquire()
             start_new_thread(self.threaded, (conn,))
 
             clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
-            print('Client message is:', clientMessage)
+            print(clientMessage)
 
             # save to file
             """

@@ -43,7 +43,8 @@ class Client:
         
         while True:
             client_msg = msgs[random.randint(0, len(msgs)-1)]
-            _client_msg = str(client_msg) + str(counter) + "\n"
+            _client_msg = str(client_msg) + "\n"
+            print ("counter = ", str(counter), _client_msg)
             client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             ### NOTE : here we use client.connect, rather than client.bind()
             client.connect((self.host, self.port))
