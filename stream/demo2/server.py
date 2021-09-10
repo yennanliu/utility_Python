@@ -38,7 +38,7 @@ class Server:
         self.port = 9999
 
         # define recv_bufsize, so we can really receive and cut off on each incoming event
-        self.recv_bufsize = 22
+        self.recv_bufsize = 1024
 
         self.print_lock = threading.Lock()
 

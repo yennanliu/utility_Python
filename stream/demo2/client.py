@@ -21,19 +21,29 @@ class Client:
         self.host = '127.0.0.1'
         self.port = 9999
 
+        self.client_msgs1 = [
+                            'hello from client! ',
+                            '123456 ',
+                            'aaabbbccc abc abc ',
+                            ' ??? ',
+                            ''
+                            ]
+
+        self.client_msgs2 = [
+                             {"timetamp":1629857927,"user_id":"u0001","event_type":"login","platform":"mobile","os":"ios","version":"ios-11"},
+                             {"timetamp":1629857927,"user_id":"u0002","transaction_id":"t001","event_type":"payment","platform":"mobile","os":"ios","version":"ios-11"},
+                             {"timetamp":1629857927,"user_id":"u0003","transaction_id":"","event_type":"register","platform":"mobile","os":"android","version":"pixel"}
+                             ]
+
     def send_endpoint(self):
 
-        client_msgs = ['hello from client! ',
-                      '123456 ',
-                      'aaabbbccc abc abc ',
-                      ' ??? ',
-                      '']
+        msgs = self.client_msgs2
 
         counter = 0
         
         while True:
-            client_msg = client_msgs[random.randint(0, len(client_msgs)-1)]
-            _client_msg = client_msg + str(counter) + "\n"
+            client_msg = msgs[random.randint(0, len(msgs)-1)]
+            _client_msg = str(client_msg) + str(counter) + "\n"
             client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             ### NOTE : here we use client.connect, rather than client.bind()
             client.connect((self.host, self.port))
