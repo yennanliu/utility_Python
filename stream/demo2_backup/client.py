@@ -3,7 +3,7 @@
 import socket, time, random
 
 """
-CLIENT V3 : consider scalability (multi thread + file IO enhancement)
+CLIENT V2 : consider scalability  (V2 backup)
 
 1) Ref
 https://clay-atlas.com/blog/2019/10/15/python-chinese-tutorial-socket-tcp-ip/

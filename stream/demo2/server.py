@@ -18,6 +18,7 @@ SERVER V2 : consider scalability (multi thread)
 
 Sockets are byte streams, not message streams
 http://stupidpythonideas.blogspot.com/2013/05/sockets-are-byte-streams-not-message.html
+https://www.1ju.org/python/python-multithreading
 
 https://stackoverflow.com/questions/17667903/python-socket-receive-large-amount-of-data
 

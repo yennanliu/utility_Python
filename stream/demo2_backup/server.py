@@ -5,7 +5,7 @@ from _thread import *
 import threading
 
 """
-CLIENT V3 : consider scalability (multi thread + file IO enhancement)
+CLIENT V2 : consider scalability  (V2 backup)
 
 - Ideas
     - multi thread

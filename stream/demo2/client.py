@@ -8,6 +8,7 @@ CLIENT V2 : consider scalability (multi thread)
 1) Ref
 
 https://clay-atlas.com/blog/2019/10/15/python-chinese-tutorial-socket-tcp-ip/
+https://www.1ju.org/python/python-multithreading
 
 2) Commands
 python client.py
