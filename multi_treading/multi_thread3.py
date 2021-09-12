@@ -7,7 +7,7 @@ import time
 
 exitFlag = 0
 
-class MyThread (threading.Thread):
+class MyThread3 (threading.Thread):
 
    def __init__(self, threadID, name, counter):
 
@@ -36,8 +36,8 @@ def print_time(threadName, delay, counter):
 
 if __name__ == '__main__':
     # Create new threads
-    thread1 = MyThread(1, "Thread-1", 1)
-    thread2 = MyThread(2, "Thread-2", 2)
+    thread1 = MyThread3(1, "Thread-1", 1)
+    thread2 = MyThread3(2, "Thread-2", 2)
 
     # Start new Threads
     thread1.start()
