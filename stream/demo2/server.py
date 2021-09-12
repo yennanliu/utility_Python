@@ -1,11 +1,12 @@
 # python 3
 
 import socket
-from _thread import *
+from _thread import start_new_thread
 import threading
 
 """
 SERVER V2 : consider scalability (multi thread)
+    - via _thread
 
 - Ideas
     - multi thread
@@ -19,6 +20,9 @@ Sockets are byte streams, not message streams
 http://stupidpythonideas.blogspot.com/2013/05/sockets-are-byte-streams-not-message.html
 
 https://stackoverflow.com/questions/17667903/python-socket-receive-large-amount-of-data
+
+socket
+https://www.1ju.org/python/python-networking
 
 2) Commands
 python server.py
@@ -46,19 +50,23 @@ class Server:
         # define recv_bufsize, so we can really receive and cut off on each incoming event
         self.recv_bufsize = 1024
 
-        self.print_lock = threading.Lock()
+        # define a lock instance, for release, acquire
+        self.lock = threading.Lock()
 
-    def threaded(self, conn):
+    def threaded(self, conn, threadName):
         
-        while True:
 
-            clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
-            print ("thread id :", threading.current_thread().name)
-            self.print_lock.release()
+        # acquire lock
+        self.lock.acquire()
 
-            break
+        clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
+        #print ("thread id :", threading.current_thread().name)
+        print ("thread name :", threadName)
 
-        conn.close()
+        # release lock
+        self.lock.release()
+        
+        #conn.close()
 
     def run(self):
 
@@ -78,11 +86,13 @@ class Server:
             """
 
             # get lock
-            self.print_lock.acquire()
-            start_new_thread(self.threaded, (conn,))
+            start_new_thread(self.threaded, (conn, "thread-1"))
+            start_new_thread(self.threaded, (conn, "thread-2"))
+            start_new_thread(self.threaded, (conn, "thread-3"))
+            #start_new_thread(self.threaded, (conn,))
 
             clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
-            print(clientMessage)
+            print("thread name : " + threading.current_thread().name + " , clientMessage : "  + clientMessage)
 
             # save to file
             """

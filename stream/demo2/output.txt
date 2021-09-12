@@ -1,35 +1,1162 @@
-{'timetamp': 1629853252, 'user_id': 97, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629852013, 'user_id': 25, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629851398, 'user_id': 95, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629855412, 'user_id': 18, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629850421, 'user_id': 65, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629855967, 'user_id': 60, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629853785, 'user_id': 36, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629855205, 'user_id': 81, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629857098, 'user_id': 35, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629856253, 'user_id': 91, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629857047, 'user_id': 10, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629850720, 'user_id': 10, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629855174, 'user_id': 2, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629856019, 'user_id': 58, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629857205, 'user_id': 65, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629851617, 'user_id': 5, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629853823, 'user_id': 22, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629854763, 'user_id': 4, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629856633, 'user_id': 80, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629850293, 'user_id': 51, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629854116, 'user_id': 24, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629850159, 'user_id': 36, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629855491, 'user_id': 41, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629851068, 'user_id': 80, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629857691, 'user_id': 80, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629854879, 'user_id': 94, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629851130, 'user_id': 92, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629856393, 'user_id': 65, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629850658, 'user_id': 9, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629853463, 'user_id': 31, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629857066, 'user_id': 27, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629852794, 'user_id': 12, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
-{'timetamp': 1629857382, 'user_id': 100, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629851669, 'user_id': 73, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
-{'timetamp': 1629852163, 'user_id': 37, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857028, 'user_id': 68, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854747, 'user_id': 56, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853628, 'user_id': 59, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855458, 'user_id': 26, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857921, 'user_id': 77, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857912, 'user_id': 28, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851108, 'user_id': 18, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857165, 'user_id': 2, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857061, 'user_id': 9, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851599, 'user_id': 1, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853062, 'user_id': 39, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854368, 'user_id': 95, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854837, 'user_id': 18, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851229, 'user_id': 5, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850193, 'user_id': 49, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851036, 'user_id': 17, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857530, 'user_id': 72, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856728, 'user_id': 58, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856392, 'user_id': 54, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857722, 'user_id': 64, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852190, 'user_id': 38, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852622, 'user_id': 9, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857434, 'user_id': 16, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853175, 'user_id': 8, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855562, 'user_id': 18, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850755, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854572, 'user_id': 39, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853422, 'user_id': 34, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850272, 'user_id': 4, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854717, 'user_id': 34, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852161, 'user_id': 82, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850392, 'user_id': 33, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854631, 'user_id': 43, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854596, 'user_id': 62, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853127, 'user_id': 8, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853998, 'user_id': 48, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857223, 'user_id': 12, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853747, 'user_id': 75, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853240, 'user_id': 73, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851547, 'user_id': 83, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854726, 'user_id': 7, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854929, 'user_id': 29, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856445, 'user_id': 14, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857459, 'user_id': 63, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856833, 'user_id': 89, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854134, 'user_id': 50, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851378, 'user_id': 1, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855799, 'user_id': 99, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854514, 'user_id': 33, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851237, 'user_id': 59, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853089, 'user_id': 29, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854797, 'user_id': 7, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855733, 'user_id': 33, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854515, 'user_id': 93, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856069, 'user_id': 66, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855667, 'user_id': 99, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857607, 'user_id': 33, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855795, 'user_id': 40, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856674, 'user_id': 67, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857011, 'user_id': 69, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853164, 'user_id': 71, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854845, 'user_id': 22, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852189, 'user_id': 64, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851448, 'user_id': 93, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857511, 'user_id': 40, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853882, 'user_id': 25, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853273, 'user_id': 89, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852932, 'user_id': 92, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856515, 'user_id': 85, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853216, 'user_id': 86, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857577, 'user_id': 62, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851295, 'user_id': 26, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857620, 'user_id': 89, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854417, 'user_id': 80, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855979, 'user_id': 11, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854550, 'user_id': 1, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851991, 'user_id': 23, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855199, 'user_id': 63, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851798, 'user_id': 84, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850824, 'user_id': 99, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850820, 'user_id': 40, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852500, 'user_id': 15, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850622, 'user_id': 77, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857590, 'user_id': 48, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856518, 'user_id': 29, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854234, 'user_id': 18, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852585, 'user_id': 49, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852482, 'user_id': 84, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855877, 'user_id': 36, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850956, 'user_id': 17, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857547, 'user_id': 89, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857205, 'user_id': 73, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852711, 'user_id': 13, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850983, 'user_id': 88, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853425, 'user_id': 66, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857745, 'user_id': 76, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857494, 'user_id': 21, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852840, 'user_id': 60, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857235, 'user_id': 46, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852275, 'user_id': 58, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853205, 'user_id': 57, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856209, 'user_id': 21, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855252, 'user_id': 51, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857636, 'user_id': 63, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855878, 'user_id': 71, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857718, 'user_id': 87, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851023, 'user_id': 60, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851718, 'user_id': 30, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850947, 'user_id': 14, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851898, 'user_id': 53, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852279, 'user_id': 37, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850756, 'user_id': 54, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855445, 'user_id': 67, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852479, 'user_id': 10, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857559, 'user_id': 35, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856047, 'user_id': 81, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856467, 'user_id': 64, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851201, 'user_id': 2, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857199, 'user_id': 14, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857347, 'user_id': 46, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852741, 'user_id': 5, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853254, 'user_id': 3, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854671, 'user_id': 72, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851518, 'user_id': 33, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850149, 'user_id': 80, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851703, 'user_id': 2, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853004, 'user_id': 47, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852335, 'user_id': 50, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854955, 'user_id': 84, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856625, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855405, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855435, 'user_id': 65, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852110, 'user_id': 55, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855504, 'user_id': 99, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851706, 'user_id': 60, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857678, 'user_id': 51, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850756, 'user_id': 99, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852735, 'user_id': 4, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857659, 'user_id': 31, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850902, 'user_id': 11, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853268, 'user_id': 98, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855095, 'user_id': 49, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855139, 'user_id': 57, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854167, 'user_id': 10, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852746, 'user_id': 3, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854425, 'user_id': 3, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855113, 'user_id': 12, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855688, 'user_id': 72, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853291, 'user_id': 55, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850029, 'user_id': 99, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850075, 'user_id': 84, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855420, 'user_id': 87, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857080, 'user_id': 26, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855796, 'user_id': 64, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852823, 'user_id': 52, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854153, 'user_id': 81, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850190, 'user_id': 45, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856818, 'user_id': 14, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857372, 'user_id': 57, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856811, 'user_id': 45, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852179, 'user_id': 33, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854930, 'user_id': 74, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857751, 'user_id': 3, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854149, 'user_id': 76, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851763, 'user_id': 65, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850951, 'user_id': 67, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856341, 'user_id': 96, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850265, 'user_id': 35, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854182, 'user_id': 39, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851626, 'user_id': 27, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852644, 'user_id': 5, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854083, 'user_id': 12, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850932, 'user_id': 61, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853549, 'user_id': 9, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855886, 'user_id': 82, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851509, 'user_id': 48, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850929, 'user_id': 18, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854957, 'user_id': 45, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851158, 'user_id': 1, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855582, 'user_id': 63, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857434, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852198, 'user_id': 4, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852129, 'user_id': 73, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852869, 'user_id': 95, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851216, 'user_id': 22, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850141, 'user_id': 100, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853938, 'user_id': 22, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854667, 'user_id': 91, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855047, 'user_id': 65, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851952, 'user_id': 2, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851480, 'user_id': 63, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854100, 'user_id': 14, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855447, 'user_id': 41, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855259, 'user_id': 55, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854223, 'user_id': 54, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853515, 'user_id': 38, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855772, 'user_id': 48, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852636, 'user_id': 82, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853131, 'user_id': 7, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853666, 'user_id': 100, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850720, 'user_id': 8, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855405, 'user_id': 39, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856167, 'user_id': 96, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857481, 'user_id': 97, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850937, 'user_id': 39, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857011, 'user_id': 28, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853720, 'user_id': 49, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852751, 'user_id': 48, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852821, 'user_id': 68, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851126, 'user_id': 30, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855170, 'user_id': 58, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855299, 'user_id': 73, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850086, 'user_id': 52, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857207, 'user_id': 23, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856902, 'user_id': 11, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853087, 'user_id': 45, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856407, 'user_id': 48, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851076, 'user_id': 20, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852563, 'user_id': 95, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854750, 'user_id': 92, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850898, 'user_id': 34, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855222, 'user_id': 90, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854249, 'user_id': 79, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851424, 'user_id': 23, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854850, 'user_id': 87, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855803, 'user_id': 36, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850750, 'user_id': 7, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851663, 'user_id': 24, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857318, 'user_id': 100, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852799, 'user_id': 49, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851382, 'user_id': 33, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850137, 'user_id': 25, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851333, 'user_id': 45, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850816, 'user_id': 90, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852148, 'user_id': 3, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851925, 'user_id': 25, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856342, 'user_id': 85, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854759, 'user_id': 79, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853060, 'user_id': 25, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854134, 'user_id': 7, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852159, 'user_id': 3, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857233, 'user_id': 92, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855612, 'user_id': 11, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850044, 'user_id': 71, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857398, 'user_id': 64, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850631, 'user_id': 11, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857111, 'user_id': 74, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855737, 'user_id': 100, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852676, 'user_id': 8, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852806, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855285, 'user_id': 18, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855071, 'user_id': 22, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852353, 'user_id': 68, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850075, 'user_id': 10, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850663, 'user_id': 31, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852960, 'user_id': 2, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852213, 'user_id': 35, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850790, 'user_id': 25, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850929, 'user_id': 21, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851302, 'user_id': 17, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857728, 'user_id': 31, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851347, 'user_id': 10, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850280, 'user_id': 29, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854606, 'user_id': 78, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857454, 'user_id': 12, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856715, 'user_id': 4, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857592, 'user_id': 48, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850793, 'user_id': 54, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854777, 'user_id': 27, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854929, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854575, 'user_id': 31, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850506, 'user_id': 38, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857829, 'user_id': 98, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852237, 'user_id': 14, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857881, 'user_id': 25, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856562, 'user_id': 14, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855205, 'user_id': 53, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852392, 'user_id': 33, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857097, 'user_id': 7, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855009, 'user_id': 26, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856474, 'user_id': 12, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852004, 'user_id': 25, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857330, 'user_id': 56, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857682, 'user_id': 25, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854951, 'user_id': 42, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854450, 'user_id': 74, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850333, 'user_id': 2, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855777, 'user_id': 65, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854718, 'user_id': 85, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850488, 'user_id': 78, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855279, 'user_id': 81, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854211, 'user_id': 25, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856531, 'user_id': 55, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851080, 'user_id': 96, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857571, 'user_id': 97, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854667, 'user_id': 52, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857079, 'user_id': 10, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857035, 'user_id': 85, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851872, 'user_id': 23, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857882, 'user_id': 45, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856086, 'user_id': 75, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851773, 'user_id': 89, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857677, 'user_id': 71, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850801, 'user_id': 78, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855219, 'user_id': 42, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850413, 'user_id': 21, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852474, 'user_id': 30, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852767, 'user_id': 14, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852795, 'user_id': 36, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854276, 'user_id': 73, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850472, 'user_id': 34, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854399, 'user_id': 36, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853503, 'user_id': 86, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852722, 'user_id': 75, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853288, 'user_id': 98, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856593, 'user_id': 63, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850991, 'user_id': 1, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855735, 'user_id': 29, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851563, 'user_id': 29, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851475, 'user_id': 2, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854961, 'user_id': 53, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853231, 'user_id': 66, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854234, 'user_id': 26, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853577, 'user_id': 99, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852151, 'user_id': 23, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850657, 'user_id': 28, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853430, 'user_id': 57, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850022, 'user_id': 9, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850296, 'user_id': 33, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854978, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850354, 'user_id': 49, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850414, 'user_id': 16, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854340, 'user_id': 76, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853448, 'user_id': 64, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856839, 'user_id': 12, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855457, 'user_id': 98, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850569, 'user_id': 9, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857287, 'user_id': 94, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853000, 'user_id': 17, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857642, 'user_id': 55, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857527, 'user_id': 92, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857822, 'user_id': 3, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853993, 'user_id': 61, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856461, 'user_id': 66, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853830, 'user_id': 19, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852200, 'user_id': 94, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853469, 'user_id': 11, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855805, 'user_id': 45, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856752, 'user_id': 15, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852233, 'user_id': 37, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853734, 'user_id': 90, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851854, 'user_id': 34, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856775, 'user_id': 39, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854105, 'user_id': 100, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857749, 'user_id': 95, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853717, 'user_id': 79, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856256, 'user_id': 45, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850533, 'user_id': 46, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852624, 'user_id': 33, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853641, 'user_id': 89, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854362, 'user_id': 26, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853403, 'user_id': 75, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855253, 'user_id': 95, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856201, 'user_id': 85, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853714, 'user_id': 23, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850156, 'user_id': 54, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855859, 'user_id': 37, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851369, 'user_id': 36, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852748, 'user_id': 45, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853078, 'user_id': 9, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851679, 'user_id': 38, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854756, 'user_id': 8, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854364, 'user_id': 80, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857820, 'user_id': 91, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856512, 'user_id': 72, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856002, 'user_id': 85, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852003, 'user_id': 82, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850006, 'user_id': 98, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854593, 'user_id': 9, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850558, 'user_id': 52, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856210, 'user_id': 13, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857433, 'user_id': 73, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850824, 'user_id': 58, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857176, 'user_id': 70, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854925, 'user_id': 15, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857495, 'user_id': 83, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854683, 'user_id': 30, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855765, 'user_id': 4, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852444, 'user_id': 100, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852063, 'user_id': 82, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857634, 'user_id': 73, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854439, 'user_id': 43, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856641, 'user_id': 64, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852696, 'user_id': 12, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857296, 'user_id': 9, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850418, 'user_id': 94, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850221, 'user_id': 18, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855926, 'user_id': 23, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857154, 'user_id': 45, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850771, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853159, 'user_id': 73, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854653, 'user_id': 24, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850274, 'user_id': 8, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856616, 'user_id': 88, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855102, 'user_id': 57, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856712, 'user_id': 72, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852351, 'user_id': 94, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851621, 'user_id': 93, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851781, 'user_id': 22, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852834, 'user_id': 56, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855268, 'user_id': 41, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851765, 'user_id': 77, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852700, 'user_id': 95, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855901, 'user_id': 40, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856675, 'user_id': 36, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851457, 'user_id': 98, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853887, 'user_id': 82, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855965, 'user_id': 54, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854041, 'user_id': 22, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855189, 'user_id': 72, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853153, 'user_id': 91, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856839, 'user_id': 38, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853294, 'user_id': 5, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851588, 'user_id': 35, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852560, 'user_id': 48, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854972, 'user_id': 84, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855789, 'user_id': 73, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850809, 'user_id': 58, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850622, 'user_id': 92, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850134, 'user_id': 49, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854470, 'user_id': 92, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853399, 'user_id': 93, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854508, 'user_id': 86, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854185, 'user_id': 89, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853148, 'user_id': 4, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857814, 'user_id': 88, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854706, 'user_id': 68, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851338, 'user_id': 90, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853902, 'user_id': 46, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850445, 'user_id': 46, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852494, 'user_id': 89, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851083, 'user_id': 18, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855017, 'user_id': 5, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850887, 'user_id': 91, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850392, 'user_id': 39, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852007, 'user_id': 85, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857902, 'user_id': 54, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857764, 'user_id': 54, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850858, 'user_id': 55, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855604, 'user_id': 13, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852414, 'user_id': 19, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852847, 'user_id': 48, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852000, 'user_id': 50, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854875, 'user_id': 81, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854681, 'user_id': 64, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850618, 'user_id': 79, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856821, 'user_id': 4, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853133, 'user_id': 43, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855953, 'user_id': 17, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854576, 'user_id': 55, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850845, 'user_id': 88, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855908, 'user_id': 6, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853500, 'user_id': 96, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856151, 'user_id': 90, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856410, 'user_id': 57, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851586, 'user_id': 74, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855524, 'user_id': 15, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857443, 'user_id': 41, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853453, 'user_id': 73, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850488, 'user_id': 60, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852752, 'user_id': 40, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852318, 'user_id': 77, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852391, 'user_id': 22, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853243, 'user_id': 95, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855210, 'user_id': 33, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856198, 'user_id': 100, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851344, 'user_id': 94, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854478, 'user_id': 34, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855974, 'user_id': 89, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857143, 'user_id': 12, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856599, 'user_id': 86, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852201, 'user_id': 29, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855339, 'user_id': 93, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857506, 'user_id': 22, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851390, 'user_id': 59, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854556, 'user_id': 24, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853760, 'user_id': 78, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853714, 'user_id': 96, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856115, 'user_id': 54, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855140, 'user_id': 70, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856935, 'user_id': 48, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850190, 'user_id': 99, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851880, 'user_id': 87, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857033, 'user_id': 50, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855217, 'user_id': 32, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857698, 'user_id': 19, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857025, 'user_id': 20, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856625, 'user_id': 45, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853380, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850276, 'user_id': 97, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855569, 'user_id': 80, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856728, 'user_id': 80, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852815, 'user_id': 80, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851716, 'user_id': 46, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853657, 'user_id': 6, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851211, 'user_id': 21, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854262, 'user_id': 38, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855872, 'user_id': 96, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853960, 'user_id': 5, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850326, 'user_id': 1, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854422, 'user_id': 15, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852881, 'user_id': 9, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857041, 'user_id': 9, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850732, 'user_id': 41, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852817, 'user_id': 5, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855723, 'user_id': 26, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855178, 'user_id': 96, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854945, 'user_id': 2, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857714, 'user_id': 23, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857010, 'user_id': 31, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850201, 'user_id': 14, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853844, 'user_id': 30, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856603, 'user_id': 15, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851492, 'user_id': 29, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853229, 'user_id': 69, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856536, 'user_id': 70, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853777, 'user_id': 97, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855577, 'user_id': 72, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854538, 'user_id': 36, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853798, 'user_id': 37, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854124, 'user_id': 25, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857336, 'user_id': 23, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853388, 'user_id': 55, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851988, 'user_id': 24, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856213, 'user_id': 85, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857051, 'user_id': 73, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852329, 'user_id': 37, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852642, 'user_id': 81, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851847, 'user_id': 49, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852209, 'user_id': 93, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856493, 'user_id': 2, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853923, 'user_id': 17, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850825, 'user_id': 100, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855705, 'user_id': 94, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855394, 'user_id': 80, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852978, 'user_id': 8, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854943, 'user_id': 87, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854493, 'user_id': 93, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854232, 'user_id': 70, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852483, 'user_id': 82, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850847, 'user_id': 93, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854625, 'user_id': 91, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855318, 'user_id': 72, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853902, 'user_id': 43, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857425, 'user_id': 95, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850484, 'user_id': 10, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850574, 'user_id': 82, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857810, 'user_id': 17, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854943, 'user_id': 78, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855418, 'user_id': 63, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854646, 'user_id': 29, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851428, 'user_id': 23, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851436, 'user_id': 39, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850114, 'user_id': 9, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851046, 'user_id': 87, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856879, 'user_id': 75, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853651, 'user_id': 22, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850845, 'user_id': 79, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852436, 'user_id': 91, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857670, 'user_id': 20, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857273, 'user_id': 66, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851792, 'user_id': 63, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853911, 'user_id': 26, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850048, 'user_id': 7, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854639, 'user_id': 4, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851099, 'user_id': 47, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855499, 'user_id': 93, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851160, 'user_id': 78, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853193, 'user_id': 41, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857620, 'user_id': 86, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853328, 'user_id': 14, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854149, 'user_id': 85, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855286, 'user_id': 73, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857797, 'user_id': 16, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852937, 'user_id': 32, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855853, 'user_id': 21, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857129, 'user_id': 55, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854477, 'user_id': 71, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856035, 'user_id': 90, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855568, 'user_id': 4, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856327, 'user_id': 26, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855257, 'user_id': 92, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850780, 'user_id': 53, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855472, 'user_id': 71, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852723, 'user_id': 10, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857294, 'user_id': 32, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854469, 'user_id': 93, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854903, 'user_id': 83, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850972, 'user_id': 36, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851055, 'user_id': 18, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851764, 'user_id': 65, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856662, 'user_id': 74, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857080, 'user_id': 78, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856885, 'user_id': 10, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857164, 'user_id': 27, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850079, 'user_id': 43, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852430, 'user_id': 42, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851025, 'user_id': 85, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856024, 'user_id': 78, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854335, 'user_id': 18, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856901, 'user_id': 80, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854199, 'user_id': 16, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854665, 'user_id': 64, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857595, 'user_id': 90, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853697, 'user_id': 50, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854178, 'user_id': 12, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856588, 'user_id': 16, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856797, 'user_id': 29, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857400, 'user_id': 19, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852250, 'user_id': 49, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850968, 'user_id': 28, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852649, 'user_id': 46, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857404, 'user_id': 59, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857122, 'user_id': 65, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857758, 'user_id': 58, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853356, 'user_id': 97, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854042, 'user_id': 97, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857224, 'user_id': 64, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855556, 'user_id': 20, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856003, 'user_id': 68, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850499, 'user_id': 34, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855238, 'user_id': 22, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852533, 'user_id': 82, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853312, 'user_id': 46, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855992, 'user_id': 83, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851005, 'user_id': 92, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854402, 'user_id': 33, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851281, 'user_id': 78, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854765, 'user_id': 81, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855027, 'user_id': 27, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854135, 'user_id': 37, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855384, 'user_id': 58, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853629, 'user_id': 53, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851119, 'user_id': 61, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854593, 'user_id': 14, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850551, 'user_id': 72, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851457, 'user_id': 19, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857728, 'user_id': 36, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850045, 'user_id': 89, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856636, 'user_id': 89, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850764, 'user_id': 82, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853622, 'user_id': 19, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853484, 'user_id': 96, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853220, 'user_id': 64, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852433, 'user_id': 19, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853680, 'user_id': 72, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857016, 'user_id': 73, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852946, 'user_id': 38, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855112, 'user_id': 44, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853067, 'user_id': 93, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851560, 'user_id': 24, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852111, 'user_id': 92, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853598, 'user_id': 23, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853661, 'user_id': 6, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850883, 'user_id': 53, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852810, 'user_id': 70, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850360, 'user_id': 22, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854318, 'user_id': 84, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855907, 'user_id': 84, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851319, 'user_id': 16, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852697, 'user_id': 49, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857129, 'user_id': 100, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851496, 'user_id': 39, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855072, 'user_id': 31, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851325, 'user_id': 92, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853217, 'user_id': 94, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854452, 'user_id': 24, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855090, 'user_id': 27, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852786, 'user_id': 32, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850603, 'user_id': 17, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852380, 'user_id': 4, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853386, 'user_id': 93, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856377, 'user_id': 64, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852812, 'user_id': 74, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853801, 'user_id': 78, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852266, 'user_id': 33, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852696, 'user_id': 83, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856373, 'user_id': 9, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851293, 'user_id': 14, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850237, 'user_id': 38, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855854, 'user_id': 47, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850799, 'user_id': 16, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856968, 'user_id': 12, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856962, 'user_id': 83, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857041, 'user_id': 47, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854209, 'user_id': 61, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855962, 'user_id': 25, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851185, 'user_id': 34, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854926, 'user_id': 94, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854889, 'user_id': 32, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851134, 'user_id': 29, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855969, 'user_id': 60, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851915, 'user_id': 85, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852990, 'user_id': 7, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850234, 'user_id': 12, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857834, 'user_id': 85, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852021, 'user_id': 29, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850790, 'user_id': 32, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855767, 'user_id': 31, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853581, 'user_id': 6, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850805, 'user_id': 100, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853035, 'user_id': 44, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856237, 'user_id': 99, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852652, 'user_id': 12, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857702, 'user_id': 3, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855271, 'user_id': 26, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855567, 'user_id': 4, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857346, 'user_id': 100, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853100, 'user_id': 51, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856794, 'user_id': 12, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855368, 'user_id': 32, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857837, 'user_id': 92, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855194, 'user_id': 87, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857770, 'user_id': 60, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856841, 'user_id': 14, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856569, 'user_id': 24, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850226, 'user_id': 56, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850389, 'user_id': 66, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850822, 'user_id': 93, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852946, 'user_id': 26, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857652, 'user_id': 31, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856169, 'user_id': 98, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850965, 'user_id': 91, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856910, 'user_id': 97, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857918, 'user_id': 29, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854043, 'user_id': 84, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857071, 'user_id': 6, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855297, 'user_id': 60, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856294, 'user_id': 1, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854680, 'user_id': 11, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857649, 'user_id': 47, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855099, 'user_id': 9, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855401, 'user_id': 32, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855268, 'user_id': 49, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856863, 'user_id': 79, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851341, 'user_id': 83, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853269, 'user_id': 5, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857502, 'user_id': 29, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850900, 'user_id': 15, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855462, 'user_id': 35, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855291, 'user_id': 54, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853399, 'user_id': 66, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852726, 'user_id': 47, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856532, 'user_id': 43, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852358, 'user_id': 22, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851848, 'user_id': 92, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853507, 'user_id': 98, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856318, 'user_id': 16, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852765, 'user_id': 10, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853068, 'user_id': 41, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850592, 'user_id': 42, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855582, 'user_id': 50, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851064, 'user_id': 63, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854237, 'user_id': 15, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852952, 'user_id': 55, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852229, 'user_id': 3, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856452, 'user_id': 27, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851656, 'user_id': 46, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853041, 'user_id': 2, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852492, 'user_id': 36, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851151, 'user_id': 39, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857861, 'user_id': 27, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854378, 'user_id': 57, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855458, 'user_id': 56, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850096, 'user_id': 44, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855888, 'user_id': 18, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853012, 'user_id': 45, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856905, 'user_id': 15, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855176, 'user_id': 39, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855035, 'user_id': 27, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851562, 'user_id': 66, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857006, 'user_id': 62, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857140, 'user_id': 10, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850004, 'user_id': 70, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854013, 'user_id': 70, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856979, 'user_id': 81, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857906, 'user_id': 85, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851149, 'user_id': 89, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853939, 'user_id': 78, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856419, 'user_id': 100, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856188, 'user_id': 10, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853637, 'user_id': 31, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855247, 'user_id': 24, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850199, 'user_id': 26, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854186, 'user_id': 90, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854607, 'user_id': 46, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854399, 'user_id': 13, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852788, 'user_id': 4, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852324, 'user_id': 43, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856767, 'user_id': 44, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854863, 'user_id': 56, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850111, 'user_id': 87, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850760, 'user_id': 97, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850746, 'user_id': 88, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857489, 'user_id': 67, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852319, 'user_id': 39, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850954, 'user_id': 71, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856609, 'user_id': 69, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850298, 'user_id': 22, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857580, 'user_id': 74, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851198, 'user_id': 20, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854235, 'user_id': 6, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854315, 'user_id': 96, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853343, 'user_id': 63, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851807, 'user_id': 30, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854402, 'user_id': 47, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854749, 'user_id': 2, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852154, 'user_id': 58, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853276, 'user_id': 48, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855185, 'user_id': 3, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853348, 'user_id': 35, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850620, 'user_id': 68, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852592, 'user_id': 49, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850409, 'user_id': 46, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850488, 'user_id': 7, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856765, 'user_id': 7, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857205, 'user_id': 43, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856153, 'user_id': 65, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857824, 'user_id': 66, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855480, 'user_id': 36, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851090, 'user_id': 11, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857550, 'user_id': 85, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856994, 'user_id': 59, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853134, 'user_id': 29, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853539, 'user_id': 62, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851590, 'user_id': 91, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857030, 'user_id': 86, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857741, 'user_id': 40, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853420, 'user_id': 66, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850878, 'user_id': 46, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855096, 'user_id': 28, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855668, 'user_id': 63, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852973, 'user_id': 75, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853027, 'user_id': 53, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855594, 'user_id': 39, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856919, 'user_id': 61, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853856, 'user_id': 13, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855108, 'user_id': 71, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857902, 'user_id': 66, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850386, 'user_id': 89, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852891, 'user_id': 57, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851990, 'user_id': 86, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855412, 'user_id': 72, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855477, 'user_id': 58, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855219, 'user_id': 88, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853465, 'user_id': 55, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850996, 'user_id': 61, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857824, 'user_id': 76, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853285, 'user_id': 87, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850486, 'user_id': 5, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855858, 'user_id': 81, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852680, 'user_id': 73, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857307, 'user_id': 14, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850234, 'user_id': 65, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850391, 'user_id': 4, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852947, 'user_id': 25, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854139, 'user_id': 45, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854795, 'user_id': 13, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852489, 'user_id': 32, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851619, 'user_id': 67, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851021, 'user_id': 20, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856990, 'user_id': 11, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857278, 'user_id': 25, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853570, 'user_id': 21, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854801, 'user_id': 48, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852545, 'user_id': 50, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856462, 'user_id': 50, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854972, 'user_id': 20, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856450, 'user_id': 61, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850294, 'user_id': 24, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853110, 'user_id': 50, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850950, 'user_id': 24, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854792, 'user_id': 96, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853833, 'user_id': 25, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857914, 'user_id': 92, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854353, 'user_id': 62, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853082, 'user_id': 90, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852728, 'user_id': 15, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853163, 'user_id': 97, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856496, 'user_id': 12, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857182, 'user_id': 40, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852714, 'user_id': 73, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851076, 'user_id': 38, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856046, 'user_id': 53, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850786, 'user_id': 1, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850464, 'user_id': 100, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854395, 'user_id': 10, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852420, 'user_id': 43, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855194, 'user_id': 67, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857685, 'user_id': 54, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851539, 'user_id': 44, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852851, 'user_id': 36, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850942, 'user_id': 90, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856806, 'user_id': 41, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850658, 'user_id': 69, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857262, 'user_id': 6, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854411, 'user_id': 43, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854233, 'user_id': 20, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855576, 'user_id': 10, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853209, 'user_id': 71, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854587, 'user_id': 40, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852009, 'user_id': 2, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855976, 'user_id': 54, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856799, 'user_id': 79, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852060, 'user_id': 34, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855530, 'user_id': 96, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850520, 'user_id': 39, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856519, 'user_id': 13, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857487, 'user_id': 60, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852739, 'user_id': 97, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852010, 'user_id': 52, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855727, 'user_id': 47, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855209, 'user_id': 66, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856753, 'user_id': 13, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851638, 'user_id': 48, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852715, 'user_id': 100, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856894, 'user_id': 22, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855069, 'user_id': 65, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855473, 'user_id': 38, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855384, 'user_id': 8, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856353, 'user_id': 57, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855443, 'user_id': 51, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852474, 'user_id': 17, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856553, 'user_id': 75, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851474, 'user_id': 62, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851246, 'user_id': 3, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851464, 'user_id': 12, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857349, 'user_id': 40, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850449, 'user_id': 62, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854399, 'user_id': 20, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855149, 'user_id': 17, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850261, 'user_id': 90, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853957, 'user_id': 96, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851736, 'user_id': 5, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852114, 'user_id': 76, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856954, 'user_id': 40, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855407, 'user_id': 37, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850469, 'user_id': 10, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853861, 'user_id': 78, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850570, 'user_id': 54, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855571, 'user_id': 24, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855147, 'user_id': 59, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855761, 'user_id': 78, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850575, 'user_id': 53, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853062, 'user_id': 73, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850323, 'user_id': 1, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851829, 'user_id': 42, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854485, 'user_id': 36, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856741, 'user_id': 56, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850866, 'user_id': 19, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854526, 'user_id': 41, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852231, 'user_id': 62, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857544, 'user_id': 74, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856088, 'user_id': 2, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856287, 'user_id': 30, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851621, 'user_id': 74, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855419, 'user_id': 74, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855709, 'user_id': 78, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857724, 'user_id': 15, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855906, 'user_id': 95, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850593, 'user_id': 6, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853511, 'user_id': 99, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853232, 'user_id': 18, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854432, 'user_id': 36, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852794, 'user_id': 39, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857703, 'user_id': 89, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853764, 'user_id': 64, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857779, 'user_id': 84, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855033, 'user_id': 34, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856395, 'user_id': 96, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851767, 'user_id': 19, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857677, 'user_id': 51, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852771, 'user_id': 33, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853467, 'user_id': 90, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852790, 'user_id': 95, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854749, 'user_id': 94, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855576, 'user_id': 86, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850098, 'user_id': 40, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852198, 'user_id': 60, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852034, 'user_id': 98, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854822, 'user_id': 99, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850697, 'user_id': 15, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855453, 'user_id': 81, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857453, 'user_id': 82, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854914, 'user_id': 17, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850942, 'user_id': 89, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850908, 'user_id': 75, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857362, 'user_id': 85, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850194, 'user_id': 3, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857378, 'user_id': 88, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856228, 'user_id': 54, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853727, 'user_id': 26, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856007, 'user_id': 19, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854864, 'user_id': 47, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853109, 'user_id': 57, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854736, 'user_id': 99, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856218, 'user_id': 8, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854098, 'user_id': 1, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856171, 'user_id': 66, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852262, 'user_id': 46, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856176, 'user_id': 1, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857242, 'user_id': 54, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851975, 'user_id': 9, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852734, 'user_id': 40, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852256, 'user_id': 28, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854540, 'user_id': 97, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852370, 'user_id': 62, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857425, 'user_id': 96, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855259, 'user_id': 12, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853285, 'user_id': 8, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851854, 'user_id': 37, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850648, 'user_id': 47, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850728, 'user_id': 6, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854571, 'user_id': 61, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854444, 'user_id': 35, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853729, 'user_id': 12, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854213, 'user_id': 66, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857373, 'user_id': 62, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856929, 'user_id': 20, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855728, 'user_id': 60, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855741, 'user_id': 95, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856308, 'user_id': 14, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853289, 'user_id': 32, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853084, 'user_id': 59, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857696, 'user_id': 12, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850423, 'user_id': 38, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851984, 'user_id': 68, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854107, 'user_id': 92, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857868, 'user_id': 32, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852800, 'user_id': 75, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851081, 'user_id': 29, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857396, 'user_id': 100, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852502, 'user_id': 18, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855111, 'user_id': 91, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857779, 'user_id': 96, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853326, 'user_id': 43, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856410, 'user_id': 76, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854420, 'user_id': 82, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853635, 'user_id': 14, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851985, 'user_id': 5, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856010, 'user_id': 55, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851878, 'user_id': 38, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853525, 'user_id': 21, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855553, 'user_id': 59, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857178, 'user_id': 99, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853967, 'user_id': 31, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854574, 'user_id': 94, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854019, 'user_id': 55, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856642, 'user_id': 7, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854132, 'user_id': 87, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850023, 'user_id': 65, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850898, 'user_id': 36, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851282, 'user_id': 47, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851605, 'user_id': 68, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854702, 'user_id': 91, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854528, 'user_id': 56, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857281, 'user_id': 17, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852381, 'user_id': 57, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857209, 'user_id': 5, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853130, 'user_id': 95, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857100, 'user_id': 68, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854665, 'user_id': 1, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850277, 'user_id': 12, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855582, 'user_id': 9, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854751, 'user_id': 44, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852353, 'user_id': 6, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851118, 'user_id': 49, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854109, 'user_id': 96, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851897, 'user_id': 72, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853141, 'user_id': 56, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853660, 'user_id': 25, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852425, 'user_id': 10, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857775, 'user_id': 28, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851352, 'user_id': 90, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853936, 'user_id': 75, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856730, 'user_id': 83, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851472, 'user_id': 95, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853877, 'user_id': 58, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851795, 'user_id': 27, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854056, 'user_id': 87, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856262, 'user_id': 26, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857575, 'user_id': 94, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852268, 'user_id': 84, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850344, 'user_id': 92, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853303, 'user_id': 49, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851549, 'user_id': 76, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853868, 'user_id': 93, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850675, 'user_id': 35, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850007, 'user_id': 28, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850542, 'user_id': 13, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852729, 'user_id': 91, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855441, 'user_id': 62, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854540, 'user_id': 41, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629856651, 'user_id': 45, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850898, 'user_id': 48, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850194, 'user_id': 14, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850944, 'user_id': 100, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629850619, 'user_id': 76, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854846, 'user_id': 24, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852476, 'user_id': 72, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850437, 'user_id': 99, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629857671, 'user_id': 47, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854515, 'user_id': 24, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853194, 'user_id': 42, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857171, 'user_id': 27, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851058, 'user_id': 63, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851383, 'user_id': 25, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852100, 'user_id': 19, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629851721, 'user_id': 29, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851643, 'user_id': 46, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853975, 'user_id': 61, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854873, 'user_id': 51, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851470, 'user_id': 35, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629852100, 'user_id': 58, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850196, 'user_id': 42, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629853509, 'user_id': 23, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854349, 'user_id': 56, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855307, 'user_id': 32, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854960, 'user_id': 27, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850717, 'user_id': 11, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856221, 'user_id': 4, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850450, 'user_id': 77, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855522, 'user_id': 1, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854489, 'user_id': 78, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854753, 'user_id': 51, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852214, 'user_id': 46, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853094, 'user_id': 69, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855015, 'user_id': 6, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853423, 'user_id': 73, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851315, 'user_id': 97, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852473, 'user_id': 59, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852781, 'user_id': 21, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855566, 'user_id': 10, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852871, 'user_id': 22, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855759, 'user_id': 11, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852278, 'user_id': 11, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856103, 'user_id': 83, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629851231, 'user_id': 83, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850311, 'user_id': 13, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850369, 'user_id': 85, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629856960, 'user_id': 5, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629852578, 'user_id': 73, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850006, 'user_id': 76, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629850060, 'user_id': 29, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855865, 'user_id': 63, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629854978, 'user_id': 29, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629855622, 'user_id': 75, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853230, 'user_id': 3, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629854115, 'user_id': 1, 'event_type': 'login', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629853325, 'user_id': 2, 'transaction_id': '', 'event_type': 'register', 'platform': 'mobile', 'os': 'android', 'version': 'pixel'}
+{'timetamp': 1629857664, 'user_id': 68, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
+{'timetamp': 1629855816, 'user_id': 84, 'transaction_id': 't001', 'event_type': 'payment', 'platform': 'mobile', 'os': 'ios', 'version': 'ios-11'}
