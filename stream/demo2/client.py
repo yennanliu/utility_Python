@@ -45,6 +45,11 @@ class Client:
         
         while True:
             client_msg = msgs[random.randint(0, len(msgs)-1)]
+
+            # create some randomness in data
+            client_msg['user_id'] = random.randint(1, 100)
+            client_msg['timetamp'] = random.randint(1629850000, 1629857927)
+
             _client_msg = str(client_msg) + "\n"
             print ("counter = ", str(counter), _client_msg)
             client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
