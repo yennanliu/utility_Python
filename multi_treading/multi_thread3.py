@@ -7,6 +7,7 @@ import time
 
 exitFlag = 0
 
+# extend threading.Thread and override run() method
 class MyThread3 (threading.Thread):
 
    def __init__(self, threadID, name, counter):
@@ -40,8 +41,10 @@ if __name__ == '__main__':
     thread2 = MyThread3(2, "Thread-2", 2)
 
     # Start new Threads
+    # launch the thread via start()
     thread1.start()
     thread2.start()
+    # join() will wait till thread completed
     thread1.join()
     thread2.join()
     print ("Exiting Main Thread")

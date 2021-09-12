@@ -5,6 +5,7 @@
 import threading
 import time
 
+# extend threading.Thread and override run() method
 class MyThread4 (threading.Thread):
 
    def __init__(self, threadID, name, counter):
