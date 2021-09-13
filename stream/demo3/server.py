@@ -39,16 +39,13 @@ curl -d "HELLO WORLD" -X POST http://localhost:9999
 lsof -i tcp:<port> 
 """
 
-exitFlag = 0
-
 class MyThread(threading.Thread):
 
-   def __init__(self, threadID, name, counter):
+   def __init__(self, threadID, name):
 
       threading.Thread.__init__(self)
       self.threadID = threadID
       self.name = name
-      self.counter = counter
 
       self.host = '127.0.0.1'
       self.port = 9999
@@ -63,22 +60,32 @@ class MyThread(threading.Thread):
 
       print ("Starting " + self.name)
 
+      self.lock.acquire()
+
       self.collect_event(self.name)
+
+      self.lock.release()
 
       print ("Exiting " + self.name)
 
    def collect_event(self, threadName):
 
       server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
       server.bind((self.host, self.port))
+
       server.listen(5)
 
       while True:
 
         conn, addr = server.accept()
+
         print ("%s: %s" % (threadName, time.ctime(time.time())))
+
         clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
-        time.sleep(3)
+
+        time.sleep(1)
+
         print (clientMessage)
 
 
@@ -90,15 +97,21 @@ class Server:
 
     def run(self):
 
+        threads = []
+
         # Create new threads
-        thread1 = MyThread(1, "Thread-1", 1)
-        #thread2 = MyThread(2, "Thread-2", 2)
+        thread1 = MyThread(1, "Thread-1")
+        thread2 = MyThread(2, "Thread-2")
 
         # Start new Threads
         thread1.start()
         #thread2.start()
-        thread1.join()
-        #thread2.join()
+
+        threads.append(thread1)
+        #threads.append(thread2)
+
+        for t in threads:
+            t.join()
 
         print ("Exiting Main Thread")
 
