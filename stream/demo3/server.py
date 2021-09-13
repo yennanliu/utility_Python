@@ -62,29 +62,23 @@ class MyThread(threading.Thread):
    def run(self):
 
       print ("Starting " + self.name)
-      self.print_time(self.name)
+
+      self.collect_event(self.name)
+
       print ("Exiting " + self.name)
 
-   def print_time(self, threadName):
-      host = '127.0.0.1'
-      port = 9999
+   def collect_event(self, threadName):
 
       server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-      server.bind((host, port))
+      server.bind((self.host, self.port))
       server.listen(5)
-
-      recv_bufsize = 1024
 
       while True:
 
         conn, addr = server.accept()
-
         print ("%s: %s" % (threadName, time.ctime(time.time())))
-
-        clientMessage = str(conn.recv(recv_bufsize), encoding='utf-8')
-
+        clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
         time.sleep(3)
-
         print (clientMessage)
 
 
@@ -92,66 +86,9 @@ class Server:
 
     def __init__(self):
 
-        self.host = '127.0.0.1'
-        self.port = 9999
+        pass
 
-        # define recv_bufsize, so we can really receive and cut off on each incoming event
-        self.recv_bufsize = 1024
-
-        # define a lock instance, for release, acquire
-        self.lock = threading.Lock()
-
-    def threaded(self, conn, threadName):
-        
-
-        # acquire lock
-        self.lock.acquire()
-
-        clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
-        #print ("thread id :", threading.current_thread().name)
-        print ("thread name :", threadName)
-
-        # release lock
-        self.lock.release()
-        
-        #conn.close()
-
-    def run_server(self):
-
-        # server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        # server.bind((self.host, self.port))
-        # server.listen(5)
-
-        # while True:
-        #     conn, addr = server.accept()
-        #     """
-        #     https://docs.python.org/3/library/socket.html
-        #     socket.recv(bufsize[, flags])
-        #     Receive data from the socket. 
-        #     The return value is a bytes object representing the data received. 
-        #     The maximum amount of data to be received at once is specified by bufsize. 
-        #     """
-
-        #     # get lock
-        #     start_new_thread(self.threaded, (conn, "thread-1"))
-        #     start_new_thread(self.threaded, (conn, "thread-2"))
-        #     start_new_thread(self.threaded, (conn, "thread-3"))
-        #     #start_new_thread(self.threaded, (conn,))
-
-        #     clientMessage = str(conn.recv(self.recv_bufsize), encoding='utf-8')
-        #     print("thread name : " + threading.current_thread().name + " , clientMessage : "  + clientMessage)
-
-        #     # save to file
-        #     """
-        #     https://www.w3schools.com/python/python_file_write.asp
-        #     "a" - Append - will append to the end of the file
-        #     "w" - Write - will overwrite any existing content
-        #     """
-        #     with open('output.txt', 'a') as f:
-        #         f.write(clientMessage)
-
-        # server.close()
-
+    def run(self):
 
         # Create new threads
         thread1 = MyThread(1, "Thread-1", 1)
@@ -167,4 +104,4 @@ class Server:
 
 if __name__ == '__main__':
     s = Server()
-    s.run_server()
+    s.run()
