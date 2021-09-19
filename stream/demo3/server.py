@@ -20,6 +20,11 @@ https://www.1ju.org/python/python-multithreading
 
 https://stackoverflow.com/questions/17667903/python-socket-receive-large-amount-of-data
 
+
+multi threading
+https://github.com/yennanliu/utility_Python/blob/master/multi_treading/multi_thread2.py
+https://blog.louie.lu/2017/08/01/%e4%bd%a0%e6%89%80%e4%b8%8d%e7%9f%a5%e9%81%93%e7%9a%84-python-%e6%a8%99%e6%ba%96%e5%87%bd%e5%bc%8f%e5%ba%ab%e7%94%a8%e6%b3%95-06-concurrent-futures/
+
 socket
 https://www.1ju.org/python/python-networking
 

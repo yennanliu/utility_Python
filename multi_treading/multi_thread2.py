@@ -1,4 +1,6 @@
-# https://blog.louie.lu/2017/08/01/%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84-python-%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB%E7%94%A8%E6%B3%95-06-concurrent-futures/
+#!/usr/bin/python3
+
+# https://blog.louie.lu/2017/08/01/%e4%bd%a0%e6%89%80%e4%b8%8d%e7%9f%a5%e9%81%93%e7%9a%84-python-%e6%a8%99%e6%ba%96%e5%87%bd%e5%bc%8f%e5%ba%ab%e7%94%a8%e6%b3%95-06-concurrent-futures/
 
 import logging
 import concurrent.futures
