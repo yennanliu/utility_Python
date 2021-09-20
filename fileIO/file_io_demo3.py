@@ -1,14 +1,14 @@
+"""
+file_io_demo3
 
-# https://www.code-learner.com/python-read-big-file-example/
+Load txt file with lazy func (yield) and chunk_size
 
-# https://stackoverflow.com/questions/6475328/how-can-i-read-large-text-files-in-python-line-by-line-without-loading-it-into/6475407
-# https://gist.github.com/iyvinjose/e6c1cb2821abd5f01fd1b9065cbc759d
-
+https://www.code-learner.com/python-read-big-file-example/
 
 """
-a lazy func that will read piece of data with chunk_size each time
-"""
-def read_file_in_chunks(file_obj, chunk_size=1024)
+
+# a lazy func that will read piece of data with chunk_size each time
+def read_file_in_chunks(file_obj, chunk_size=1024):
 
     while True:
 
@@ -20,16 +20,25 @@ def read_file_in_chunks(file_obj, chunk_size=1024)
         yield data 
 
 
-def main(file_name):
+# main run func
+def main(file_name, chunk_size):
+
+    piece_count = 0
 
     with open(file_name) as f:
 
-        for piece in read_file_in_chunks(f):
+        for piece in read_file_in_chunks(f, chunk_size):
 
             # your data process logic
             #proess_func(data)
+            print ("-------------------------------")
+            print ("piece_count =", str(piece_count))
+            print ("-------------------------------")
             print (piece)
 
+            piece_count += 1
+
 if __name__ == '__main__':
+    chunk_size = 2048
     file_name = 'test3.txt'
-    main()
+    main(file_name, chunk_size)
