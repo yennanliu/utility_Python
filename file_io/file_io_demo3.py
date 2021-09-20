@@ -3,8 +3,14 @@ file_io_demo3
 
 Load txt file with lazy func (yield) and chunk_size
 
-https://www.code-learner.com/python-read-big-file-example/
+- Yield
+    - one of the geneator
+    - will NOT save value in memory, but "push" when called everytime
+        - So it can avoid program broken if read large file
+    - we will use "next()" method get values from yield (as a geneator)
 
+- Ref
+    - https://www.code-learner.com/python-read-big-file-example/
 """
 
 # a lazy func that will read piece of data with chunk_size each time
