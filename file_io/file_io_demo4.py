@@ -72,22 +72,25 @@ def read_lines_from_file_as_chunks(file_name, chunk_size, callback, return_whole
     callback(data=None, eof=True, file_name=file_name)
 
 
-def main(file_name, chunk_size=1024):
+def process_lines(data, eof, file_name):
 
-    def process_lines(data, eof, file_name):
+    print ('data = ', str(data))
 
-        if not eof:
-            print ('not eof')
-        else:
-            print ('eof')
-
-        read_lines_from_file_as_data_chunks(
-            file_name, 
-            chunk_size=CHUNK_SIZE, 
-            callback=self.process_lines
-            )
+    # if not eof:
+    #     print ('not eof')
+    # else:
+    #     print ('eof')
 
 if __name__ == '__main__':
+    
     chunk_size = 2048
     file_name = 'test3.txt'
-    main(file_name)
+
+    """
+    NOTE : process_lines is the callback func that define the logics we process each line the loaded data
+    """
+    read_lines_from_file_as_chunks(
+        file_name, 
+        chunk_size=chunk_size, 
+        callback=process_lines
+    )
