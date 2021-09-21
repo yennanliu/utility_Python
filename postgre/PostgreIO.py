@@ -85,6 +85,8 @@ class PostgreIO:
             for row in data:
                 sqlrows += row
                 if ( len(sqlrows) / len(cols) ) % rowsPerInsert == 0:
+                    # plz refer below as well
+                    # https://github.com/yennanliu/GitCommitQ/blob/master/src/dump_to_postgre.py#L75
                     insertSQL = 'INSERT INTO "{table_name}" VALUES ' + ','.join(['(' + ','.join(valueSQL) + ')']*rowsPerInsert).format(table_name)
                     cur.execute(insertSQL, sqlrows)
                     conn.commit()
