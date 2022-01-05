@@ -8,5 +8,6 @@ python -m http.server 18888
 python -m SimpleHTTPServer 18888
 
 # open the other terminal, and get the file via below
-# example : wget localhost:18888/build.sbt
+# example 1 : wget localhost:18888/build.sbt
+# example 2 : wget <hostname>:18888/xxx.keytab
 wget <server_ip>:18888/<file_you_wanna_get>
