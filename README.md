@@ -1,9 +1,7 @@
 # Utility_Python
 
-- Python basics demo
-- `Collection of python working scripts` 
-- python `OOP` basic demo
-
+- `Collection of Python scripts` 
+- Python `OOP` & basic demo
 
 ### Development 
 
