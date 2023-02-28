@@ -1,0 +1,5 @@
+{
+    "table_1": "where x = 1",
+    "table_2": "where y = 2",
+    "table_3": "where z = 3"
+}
