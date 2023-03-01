@@ -12,16 +12,22 @@ def modify(update_json_file, json_data):
     to_update = load_json(update_json_file)
     if len(to_update) == 0:
         return json_data
+    if len(to_update) == 0:
+        return json_data
     for k, v in to_update.items():
-        json_data[k] = v
+        if k in json_data.keys():
+            json_data[k] = v
     return json_data
 
 
 if __name__ == '__main__':
+
     #load_json('conf.json')
     #print('')
     #load_json('conf_dev.json')
+
     json_data = load_json('conf.json')
     print('json_data = ' + str(json_data))
     updated_json_data = modify('conf_qa.json', json_data)
+    #updated_json_data = modify('conf_dev.json', json_data)
     print('updated_json_data = ' + str(updated_json_data)) 

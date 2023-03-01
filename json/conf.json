@@ -1,5 +1,13 @@
 {
     "table_1": "where x = 1",
     "table_2": "where y = 2",
-    "table_3": "where z = 3"
+    "table_3": "where z = 3",
+    "table_4": {
+            "cols": {
+                "a": 123,
+                "b": 456
+            }, 
+            "freq":1000
+            }
+
 }
