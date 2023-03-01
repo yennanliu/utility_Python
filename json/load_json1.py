@@ -12,8 +12,6 @@ def modify(update_json_file, json_data):
     to_update = load_json(update_json_file)
     if len(to_update) == 0:
         return json_data
-    if len(to_update) == 0:
-        return json_data
     for k, v in to_update.items():
         if k in json_data.keys():
             json_data[k] = v
