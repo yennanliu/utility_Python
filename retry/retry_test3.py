@@ -1,5 +1,6 @@
 """
 https://medium.com/@geethanjali.eswaran/retry-decorator-in-python-7605af5f2fb2
+https://stackoverflow.com/questions/62763575/python-retry-with-dynamic-parameters
 """
 
 import time
@@ -32,18 +33,29 @@ def retry(retry_count=3, retry_interval=2):
     return real_decorator
 
 
-@retry(retry_count=10, retry_interval=3)
+@retry(retry_interval=3)
 class MyClient:
     
     def __init__(self, name, age):
 
+
         self.name = name
         self.age = age
-        print (10/0)
+
+        #print (10/0)
+
+        # if 3 > 2:
+        #     raise Exception('3 > 2 Exception')
+        if self.getDiff() < 0:
+            raise Exception('getDiff Exception')
+            
         print ('class init')
 
     def show(self):
         print (f'name = {self.name}, age = {self.age}')
+
+    def getDiff(self):
+        return 0 - 100
 
 
 if __name__ == '__main__':
