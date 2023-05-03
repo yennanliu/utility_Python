@@ -1,13 +1,16 @@
 """
 https://medium.com/@geethanjali.eswaran/retry-decorator-in-python-7605af5f2fb2
 https://stackoverflow.com/questions/62763575/python-retry-with-dynamic-parameters
+https://docs.python.org/3/library/functools.html
 """
 
+from functools import wraps
 import time
 
 # retry decorator
 def retry(retry_count=3, retry_interval=2):
     def real_decorator(decor_method):
+        @wraps(decor_method)
         def wrapper(*args, **kwargs):
             for count in range(retry_count):
                 try:
@@ -24,7 +27,7 @@ def retry(retry_count=3, retry_interval=2):
     return real_decorator
 
 
-@retry(retry_interval=3)
+#@retry(retry_interval=3)
 class MyClient:
     
     def __init__(self, name, age):
@@ -50,5 +53,5 @@ class MyClient:
 
 
 if __name__ == '__main__':
-    client = MyClient('kyo', 99)
+    client = retry(10, 2)(MyClient)('kyo', 99)
     client.show()
