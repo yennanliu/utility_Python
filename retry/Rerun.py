@@ -1,12 +1,12 @@
 import time, datetime
 
-def rerun(to_catch_time, rerun_interval):
+def rerun(to_catch_time, rerun_interval, max_rerun):
     def real_decorator(decor_method):
         def _decorator(*args, **kwargs):
             current_time = datetime.datetime.now()
             count = 0
             #while current_time < to_catch_time:
-            while current_time < to_catch_time and count < 5:
+            while current_time < to_catch_time and count < max_rerun:
             #while True:
                 try:
                     print (f'Rerun: current_time = {current_time}, to_catch_time = {to_catch_time}, count = {count}')
