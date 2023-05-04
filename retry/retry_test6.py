@@ -11,30 +11,28 @@ def rerun(to_catch_time, rerun_interval=1):
     def real_decorator(decor_method):
         def _decorator(*args, **kwargs):
             current_time = datetime.datetime.now()
-            #print (f'current_time = {current_time}')
-            #print (f'to_catch_time = {to_catch_time}')
             count = 0
-            while current_time < to_catch_time:
-            #while current_time < to_catch_time or count < 5:
+            #while current_time < to_catch_time:
+            while current_time < to_catch_time and count < 3:
             #while True:
                 try:
-                    print (f'current_time = {current_time}')
-                    print (f'to_catch_time = {to_catch_time}')
+                    print (f'Rerun: current_time = {current_time}, to_catch_time = {to_catch_time}, count = {count}')
                     time.sleep(rerun_interval)
                     count += 1
-                    current_time = datetime.datetime.now()
+                    current_time += datetime.timedelta(seconds=rerun_interval)
                     return_values = decor_method(*args, **kwargs)
                     #return return_values
-                    print(f'Rerun : count = {count}, to_catch_time = {to_catch_time}, rerun_interval = {rerun_interval}')                    
+                    #print(f'Rerun : count = {count}, to_catch_time = {to_catch_time}, rerun_interval = {rerun_interval}')                    
                     print (f'return_values = {return_values}')
                 except Exception as error:
-                    print(f'Rerun : count = {count}, to_catch_time = {to_catch_time}, rerun_interval = {rerun_interval}, error = {error}')
+                    print (f'Error: current_time = {current_time}, to_catch_time = {to_catch_time}, count = {count}, exception = {error}')
         return _decorator
     return real_decorator
 
 
-TO_CATCH = datetime.datetime.now() + datetime.timedelta(seconds=7)
 RERUN_INTERVAl = 2
+TIME_DELTA = 20
+TO_CATCH = datetime.datetime.now() + datetime.timedelta(seconds=TIME_DELTA)
 
 @rerun(to_catch_time=TO_CATCH, rerun_interval=RERUN_INTERVAl)
 class MyClient:
