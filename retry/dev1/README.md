@@ -3,7 +3,7 @@
 ## Run test
 ```bash
 cd utility_Python/retry/dev1
-pytest .
+pytest --verbose .
 ```
 
 ### Ref
