@@ -1,5 +1,5 @@
 # go to the server & directory you wanna share files from
-# axample : cd KafkaHelloWorld
+# example : cd KafkaHelloWorld
 # python 3
 python -m http.server 18888
 
