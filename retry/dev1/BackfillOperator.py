@@ -7,7 +7,7 @@ DEFAULT_DATA_LAG = dt.timedelta(seconds=10)
 
 logger = logging.getLogger(__name__)
 
-def backfill_operator(func = None, max_run = DEFAULT_MAX_RUN, min_data_lag_to_stop: DEFAULT_DATA_LAG, latest_time_for_rerun = None):
+def backfill_operator(_func=None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_to_stop = DEFAULT_DATA_LAG, latest_time_for_rerun = None):
 
     def decorator_rerun(func):
 
@@ -17,7 +17,7 @@ def backfill_operator(func = None, max_run = DEFAULT_MAX_RUN, min_data_lag_to_st
         def if_stop_rerun(current_data_lag = dt.timedelta):
 
             # max run reached
-            if max_run and (number_of_run > max_run):
+            if max_run and (number_of_run >= max_run):
                 logger.info(f"Max count of return reached, exit backfill process. Nunmber of run : {number_of_run}. Max run : {max_run}")
                 print (">>> True")
                 return True
@@ -40,27 +40,33 @@ def backfill_operator(func = None, max_run = DEFAULT_MAX_RUN, min_data_lag_to_st
             print (">>> False")
             return False
 
-    @functools.wraps(func)
-    def wrapper_rerun(*args, **kwargs):
+        @functools.wraps(func)
+        def wrapper_rerun(*args, **kwargs):
 
-        nonlocal number_of_run
-        nonlocal timestamp_run_started
+            print(">>> wrapper_rerun")
+            logger.info(f"(>>> (wrapper_repeat) func = {str(func)}")
 
-        timestamp_run_started = dt.datetime.utcnow()
+            nonlocal number_of_run
+            nonlocal timestamp_run_started
 
-        while True:
-            current_data_lag = func(*args, **kwargs)
-            number_of_run += 1
+            number_of_run = 0
 
-            if if_stop_rerun(current_data_lag=current_data_lag):
-                print (">>> break")
-                break
+            timestamp_run_started = dt.datetime.utcnow()
 
-        return current_data_lag
+            while True:
+                print(f">>> func = {func}")
+                current_data_lag = func(*args, **kwargs)
+                number_of_run += 1
 
-    return wrapper_rerun
+                if if_stop_rerun(current_data_lag=current_data_lag):
+                    print (">>> break")
+                    break
+
+            return current_data_lag
+
+        return wrapper_rerun
 
     if _func is None:
-        logger.warn(f"input func is Null")
+        logger.warn(f"_func is Null")
         return decorator_rerun
     return decorator_rerun(_func)
