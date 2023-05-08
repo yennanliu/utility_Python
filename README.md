@@ -63,3 +63,8 @@
 	- https://docs.pytest.org/en/latest/fixture.html
 
 </details>
+
+## TODO
+- flake 8, PEP8
+- pycharm integration
+- integration test
