@@ -20,7 +20,7 @@ class MyFakeETL:
             print("Nothing to run, exit ...")
             return dt.timedelta(seconds=0)
 
-        logger.info("Run ETL start ...")
+        logger.info("--> Run ETL start ...")
         self._run_etl()
         logger.info(f"Run ETL end ... current data lag: {self.current_data_lag}")
         return self.get_time_left()
