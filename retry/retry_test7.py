@@ -1,4 +1,5 @@
 from Rerun import rerun
+from LogConfig import config_log
 import time, datetime
 
 RERUN_INTERVAl = 2
@@ -10,6 +11,7 @@ MAX_RUN = 4
 class MyClient:
     
     def __init__(self, name, age):
+        config_log()
         self.name = name
         self.age = age
         print ('class init')

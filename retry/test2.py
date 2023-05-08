@@ -23,6 +23,7 @@ class MyClient:
     def getDiff():
         return 0 - 100
 
+    @do_twice(MyClient.getDiff())
     def call(self):
         diff = MyClient.getDiff() # use getDiff method directly
         print (f'diff = {diff}')
