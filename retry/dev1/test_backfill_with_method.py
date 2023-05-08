@@ -40,7 +40,7 @@ def test_count_equals_zero():
     my_etl_func1()
     assert run_count_2 == 0
 
-def test_count_equals_x():
+def test_count_equals_five():
 
     my_etl_func3()
     assert run_count_3 == 5
