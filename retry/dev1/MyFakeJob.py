@@ -3,6 +3,8 @@ import logging
 import math
 import time
 
+logger = logging.getLogger(__name__)
+
 class MyFakeETL:
 
     def __init__(self, init_data_lag, time_to_run_etl, offlest_after_run_etl):
@@ -13,21 +15,21 @@ class MyFakeETL:
 
     def run_etl(self):
 
-        print(f"Current data lag : {self.current_data_lag}")
+        logger.debug(f"Current data lag : {self.current_data_lag}")
         if abs(self.current_data_lag.total_seconds()) < 0.5:
             print("Nothing to run, exit ...")
             return dt.timedelta(seconds=0)
 
-        print("Run ETL start ...")
+        logger.info("Run ETL start ...")
         self._run_etl()
-        print(f"Run ETL end ... current data lag: {self.current_data_lag}")
+        logger.info(f"Run ETL end ... current data lag: {self.current_data_lag}")
         return self.get_time_left()
 
     def _run_etl(self):
 
         # simulate etl process time, can use time-machine as next step : https://pypi.org/project/time-machine/
         sec_to_sleep = self._time_to_run_etl.total_seconds()
-        print(f"Sleep for {sec_to_sleep} seconds")
+        logger.info(f"Sleep for {sec_to_sleep} seconds")
         time.sleep(sec_to_sleep)
 
         time_left = self.get_time_left()

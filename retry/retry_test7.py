@@ -1,5 +1,5 @@
 from Rerun import rerun
-from LogConfig import config_log
+from dev1.LogConfig import config_log
 import time, datetime
 
 RERUN_INTERVAl = 2
