@@ -67,6 +67,6 @@ def backfill_operator(_func=None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_to_
         return wrapper_rerun
 
     if _func is None:
-        logger.warn(f"_func is Null")
+        logger.warning(f"_func is Null")
         return decorator_rerun
     return decorator_rerun(_func)
