@@ -31,7 +31,7 @@ def backfill_operator(_func=None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_to_
             # if rerun time > max time for rerun
             if latest_time_for_rerun and timestamp_run_started:
                 run_time = dt.datetime.utcnow() - timestamp_run_started
-                log.info(f">>> run_time = {run_time}, latest_time_for_rerun = {latest_time_for_rerun}")
+                logger.info(f">>> run_time = {run_time}, latest_time_for_rerun = {latest_time_for_rerun}")
                 if run_time >= latest_time_for_rerun:
                     logger.info(f"Latest rerun time is exhausted, exit backfill process. Latest time for rerun : {latest_time_for_rerun}. Run time : {run_time}")
                     #print (">>> True")

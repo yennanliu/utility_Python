@@ -7,10 +7,17 @@ logger = logging.getLogger("main")
 run_count = 0
 
 
-@backfill_operator(max_run=10)
+MAX_RUN = 10
+DEFAULT_DATA_LAG = dt.timedelta(seconds=10)
+OFFSET_AFTER_RUN_ETL = dt.timedelta(seconds=10)
+
+#@backfill_operator(max_run=10)
+#@backfill_operator(max_run=MAX_RUN, min_data_lag_to_stop=DEFAULT_DATA_LAG)
+@backfill_operator(max_run=MAX_RUN, min_data_lag_to_stop=DEFAULT_DATA_LAG, latest_time_for_rerun=OFFSET_AFTER_RUN_ETL)
+#@backfill_operator()
 def dummy_etl_func():
 
-	print("dummy_etl_func run")
+	#print("dummy_etl_func run")
 	global run_count
 	run_count += 1
 	logger.info(f"run_count = {run_count}")
