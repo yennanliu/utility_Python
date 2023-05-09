@@ -7,11 +7,11 @@ logger = logging.getLogger(__name__)
 
 class MyFakeETL:
 
-    def __init__(self, init_data_lag, time_to_run_etl, offlest_after_run_etl):
+    def __init__(self, init_data_lag, time_to_run_etl, offset_after_run_etl):
         
         self._timestamp_of_last_etl_run = self.get_cur_time() - init_data_lag
         self._time_to_run_etl = time_to_run_etl
-        self._offlest_after_run_etl = offlest_after_run_etl
+        self._offset_after_run_etl = offset_after_run_etl
 
     def run_etl(self):
 
@@ -34,7 +34,7 @@ class MyFakeETL:
 
         time_left = self.get_time_left()
 
-        self._timestamp_of_last_etl_run += dt.timedelta(seconds = min(time_left.total_seconds(), self._offlest_after_run_etl.total_seconds()))
+        self._timestamp_of_last_etl_run += dt.timedelta(seconds = min(time_left.total_seconds(), self._offset_after_run_etl.total_seconds()))
 
     @property
     def current_data_lag(self):

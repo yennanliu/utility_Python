@@ -31,7 +31,7 @@ def main():
         etl = etl_class(
             init_data_lag=dt.timedelta(seconds=15),
             time_to_run_etl=dt.timedelta(seconds=1),
-            offlest_after_run_etl=dt.timedelta(seconds=1 + 8)
+            offset_after_run_etl=dt.timedelta(seconds=1 + 8)
         )
         etl.run_etl()
 
