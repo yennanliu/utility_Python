@@ -5,6 +5,8 @@ import time
 
 logger = logging.getLogger(__name__)
 
+DEFAULT_STOP_THRESHOLD = 0.5
+
 """
     Fake ETL class
 
@@ -15,16 +17,17 @@ logger = logging.getLogger(__name__)
 """
 class MyFakeETL:
 
-    def __init__(self, init_data_lag, etl_process_time, offset_after_run_etl):
+    def __init__(self, init_data_lag, etl_process_time, offset_after_run_etl, stop_threshold=DEFAULT_STOP_THRESHOLD):
         
         self._timestamp_of_last_etl_run = self.get_cur_time() - init_data_lag
         self._etl_process_time = etl_process_time
         self._offset_after_run_etl = offset_after_run_etl
+        self._stop_threshold = stop_threshold
 
     def run_etl(self):
 
         logger.debug(f"Current data lag : {self.current_data_lag}")
-        if abs(self.current_data_lag.total_seconds()) < 0.5:
+        if abs(self.current_data_lag.total_seconds()) < self._stop_threshold:
             print("Nothing to run, exit ...")
             return dt.timedelta(seconds=0)
 
@@ -42,7 +45,9 @@ class MyFakeETL:
 
         time_left = self.get_time_left()
 
-        self._timestamp_of_last_etl_run += dt.timedelta(seconds = min(time_left.total_seconds(), self._offset_after_run_etl.total_seconds()))
+        self._timestamp_of_last_etl_run += dt.timedelta(seconds = 
+            min(time_left.total_seconds(), self._offset_after_run_etl.total_seconds())
+        )
 
     @property
     def current_data_lag(self):

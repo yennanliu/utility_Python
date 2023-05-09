@@ -25,13 +25,19 @@ class FakeETL2(MyFakeETL):
 def main():
 
     config_log()
-    etl_classes = [FakeETL1, FakeETL2]
+    #etl_classes = [FakeETL1, FakeETL2]
+    etl_classes = [FakeETL1]
     for etl_class in etl_classes:
         logger.info(f"ETL = {etl_class}")
+        # etl = etl_class(
+        #     init_data_lag=dt.timedelta(seconds=15),
+        #     etl_process_time=dt.timedelta(seconds=1),
+        #     offset_after_run_etl=dt.timedelta(seconds=1 + 8)
+        # )
         etl = etl_class(
-            init_data_lag=dt.timedelta(seconds=15),
-            etl_process_time=dt.timedelta(seconds=1),
-            offset_after_run_etl=dt.timedelta(seconds=1 + 8)
+            init_data_lag=dt.timedelta(seconds=14),
+            etl_process_time=dt.timedelta(seconds=2),
+            offset_after_run_etl=dt.timedelta(seconds=1 + 2)
         )
         etl.run_etl()
 

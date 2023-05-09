@@ -4,6 +4,8 @@ from MyFakeJob import MyFakeETL
 
 run_count_1 = 0
 run_count_2 = 0
+run_count_3 = 0
+run_count_4 = 0
 
 class MyETL1(MyFakeETL):
 
@@ -25,7 +27,25 @@ class MyETL2(MyFakeETL):
         print(f"MyETL2 run_etl, count = {run_count_2}")
         return super().run_etl()
 
-def test_class_count_equals_five():
+class MyETL3(MyFakeETL):
+
+    @backfill_operator(max_run=10)
+    def run_etl(self):
+
+        global run_count_3
+        run_count_3 += 1
+        return super().run_etl()
+
+class MyETL4(MyFakeETL):
+
+    @backfill_operator(max_run=10)
+    def run_etl(self):
+
+        global run_count_4
+        run_count_4 += 1
+        return super().run_etl()
+
+def test_count_equals_five():
 
     etl =  MyETL1(
         init_data_lag=dt.timedelta(seconds=15),
@@ -37,7 +57,7 @@ def test_class_count_equals_five():
 
     assert run_count_1 == 1
 
-def test_class_count_equals_ten():
+def test_count_equals_ten():
 
     etl =  MyETL2(
         init_data_lag=dt.timedelta(seconds=20),
@@ -48,3 +68,27 @@ def test_class_count_equals_ten():
     etl.run_etl()
 
     assert run_count_2 == 10
+
+def test_count_equals_one():
+
+    etl =  MyETL3(
+        init_data_lag=dt.timedelta(seconds=0),
+        etl_process_time=dt.timedelta(seconds=3),
+        offset_after_run_etl=dt.timedelta(seconds=1 + 1)
+    )
+
+    etl.run_etl()
+
+    assert run_count_3 == 1
+
+def test_count_equals_five_():
+
+    etl =  MyETL4(
+        init_data_lag=dt.timedelta(seconds=14),
+        etl_process_time=dt.timedelta(seconds=2),
+        offset_after_run_etl=dt.timedelta(seconds=1 + 2)
+    )
+
+    etl.run_etl()
+
+    assert run_count_4 == 5
