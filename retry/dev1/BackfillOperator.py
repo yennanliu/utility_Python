@@ -3,7 +3,7 @@ import functools
 import logging
 
 DEFAULT_MAX_RUN = 10
-DEFAULT_DATA_LAG = dt.timedelta(seconds=10)
+DEFAULT_DATA_LAG_TO_STOP = dt.timedelta(seconds=10)
 
 logger = logging.getLogger(__name__)
 
@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
     min_data_lag_to_stop : minimum time difference to stop rerun, means data delay is acceptable
     latest_time_for_rerun : max time for rerun, if execution time > latest_time_for_rerun, then exit rerun
 """
-def backfill_operator(_func = None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_to_stop = DEFAULT_DATA_LAG, latest_time_for_rerun = None):
+def backfill_operator(_func = None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_to_stop = DEFAULT_DATA_LAG_TO_STOP, latest_time_for_rerun = None):
 
     def decorator_rerun(func):
 
@@ -23,6 +23,8 @@ def backfill_operator(_func = None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_t
         timestamp_run_started = None
 
         def if_stop_rerun(current_data_lag):
+
+            logger.info(f"(backfill_operator) current_data_lag = {current_data_lag}, min_data_lag_to_stop = {min_data_lag_to_stop}")
 
             # max run reached
             if max_run and (number_of_run >= max_run):

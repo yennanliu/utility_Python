@@ -10,7 +10,7 @@ run_count = 0
 
 class FakeETL1(MyFakeETL):
 
-    @backfill_operator()
+    @backfill_operator(max_run=20, min_data_lag_to_stop=dt.timedelta(seconds=1))
     def run_etl(self):
         return super().run_etl()
 

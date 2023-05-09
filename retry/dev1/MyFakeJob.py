@@ -45,6 +45,8 @@ class MyFakeETL:
 
         time_left = self.get_time_left()
 
+        logger.info(f">>> time_left = {time_left.total_seconds()}, _offset_after_run_etl = {self._offset_after_run_etl}, _timestamp_of_last_etl_run = {self._timestamp_of_last_etl_run}")
+
         self._timestamp_of_last_etl_run += dt.timedelta(seconds = 
             min(time_left.total_seconds(), self._offset_after_run_etl.total_seconds())
         )
