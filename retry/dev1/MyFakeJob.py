@@ -5,12 +5,20 @@ import time
 
 logger = logging.getLogger(__name__)
 
+"""
+    Fake ETL class
+
+    init_data_lag : initial data lag (lag that ETL needs to catchup)
+    etl_process_time : time period for ETL job
+    offset_after_run_etl :  offset after ETL executed, consider as extra time cost (e.g. DB slowness, client slow response ...)
+
+"""
 class MyFakeETL:
 
-    def __init__(self, init_data_lag, time_to_run_etl, offset_after_run_etl):
+    def __init__(self, init_data_lag, etl_process_time, offset_after_run_etl):
         
         self._timestamp_of_last_etl_run = self.get_cur_time() - init_data_lag
-        self._time_to_run_etl = time_to_run_etl
+        self._etl_process_time = etl_process_time
         self._offset_after_run_etl = offset_after_run_etl
 
     def run_etl(self):
@@ -28,7 +36,7 @@ class MyFakeETL:
     def _run_etl(self):
 
         # simulate etl process time, can use time-machine as next step : https://pypi.org/project/time-machine/
-        sec_to_sleep = self._time_to_run_etl.total_seconds()
+        sec_to_sleep = self._etl_process_time.total_seconds()
         logger.info(f"Sleep for {sec_to_sleep} seconds")
         time.sleep(sec_to_sleep)
 

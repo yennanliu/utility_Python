@@ -18,7 +18,7 @@ def test_class_count_equals_five():
 
     etl =  MyETL1(
         init_data_lag=dt.timedelta(seconds=15),
-        time_to_run_etl=dt.timedelta(seconds=1),
+        etl_process_time=dt.timedelta(seconds=1),
         offset_after_run_etl=dt.timedelta(seconds=1 + 8)
     )
 

@@ -11,7 +11,7 @@ def main():
 
     fake_etl = MyFakeETL(
         init_data_lag=dt.timedelta(seconds=20),
-        time_to_run_etl=dt.timedelta(seconds=3),
+        etl_process_time=dt.timedelta(seconds=3),
         offset_after_run_etl=dt.timedelta(seconds=10)
     )
 
