@@ -3,9 +3,9 @@
 ## Run test
 ```bash
 cd utility_Python/retry/dev1
-pytest --verbose .
+pytest --v .
 
-#python -m pytest --verbose .
+# python -m pytest --verbose .
 ```
 
 ### Ref
@@ -14,3 +14,4 @@ pytest --verbose .
 - Test
 	- https://realpython.com/pytest-python-testing/
 	- https://realpython.com/python-testing/
+	- https://docs.pytest.org/en/7.1.x/how-to/assert.html
