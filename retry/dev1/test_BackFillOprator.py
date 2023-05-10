@@ -12,7 +12,6 @@ def test_should_raise_exception_if_func_return_null():
     with pytest.raises(TypeError):
         my_dummy_func()
 
-
 def test_should_raise_exception_if_func_return_type_wrong():
 
     @backfill_operator(max_run=10)
