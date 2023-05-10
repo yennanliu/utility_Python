@@ -19,6 +19,8 @@ def backfill_operator(_func = None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_t
 
     def decorator_rerun(func):
 
+        logger.info(f">>> (decorator_rerun) func = {func}")
+
         number_of_run = 0
         timestamp_run_started = None
 
@@ -63,7 +65,7 @@ def backfill_operator(_func = None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_t
             timestamp_run_started = dt.datetime.utcnow()
 
             while True:
-                #print(f">>> func = {func}")
+                print(f">>> func = {func}")
                 current_data_lag = func(*args, **kwargs)
                 number_of_run += 1
 
@@ -76,6 +78,5 @@ def backfill_operator(_func = None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_t
         return wrapper_rerun
 
     if _func is None:
-        logger.warning(f"_func is Null")
         return decorator_rerun
     return decorator_rerun(_func)
