@@ -5,12 +5,14 @@ from LogConfig import config_log
 
 logger = logging.getLogger("main")
 run_count = 0
+run_count_1 = 0
 
 MAX_RUN = 20
 DEFAULT_DATA_LAG = dt.timedelta(seconds=1)
 OFFSET_AFTER_RUN_ETL = dt.timedelta(seconds=1)
 
-data_delta = 3
+data_delta = 10
+data_delta_1 = 10
 
 @backfill_operator(max_run=10)
 def dummy_etl_func_1():
@@ -37,11 +39,27 @@ def dummy_etl_func_2():
     return dt.timedelta(seconds=data_delta)
 
 
+
+@backfill_operator(max_run=10, 
+    min_data_lag_to_stop=dt.timedelta(seconds=1000), 
+    latest_time_for_rerun=dt.timedelta(seconds=1 + 1))
+def dummy_etl_func_3():
+
+    #print("dummy_etl_func_2 run")
+    global run_count_1
+    global data_delta_1
+    run_count_1 += 1
+    logger.info(f"(dummy_etl_func_3) run_count = {run_count_1}")
+    data_delta_1 -= 1
+    return dt.timedelta(seconds=data_delta_1)
+
+
 def main():
 
     config_log()
-    dummy_etl_func_1()
+    #dummy_etl_func_1()
     #dummy_etl_func_2()
+    dummy_etl_func_3()
 
 if __name__ == '__main__':
     main()

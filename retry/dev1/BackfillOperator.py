@@ -66,6 +66,7 @@ def backfill_operator(_func = None, *, max_run = DEFAULT_MAX_RUN, min_data_lag_t
 
             while True:
                 print(f">>> func = {func}")
+                # get data lag from func
                 current_data_lag = func(*args, **kwargs)
                 number_of_run += 1
 

@@ -4,6 +4,8 @@
 ```bash
 cd utility_Python/retry/dev1
 pytest --verbose .
+
+#python -m pytest --verbose .
 ```
 
 ### Ref
