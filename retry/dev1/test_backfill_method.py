@@ -6,6 +6,7 @@ run_count_2 = 0
 run_count_3 = 0
 run_count_4 = 0
 run_count_5 = 0
+run_count_6 = 0
 delta_second_1 = 10
 
 def test_run_one_time_when_delay_in_range():
@@ -73,3 +74,16 @@ def test_should_run_five_times_if_can_catchup():
 
     my_etl_func()
     assert run_count_5 == 5
+
+
+def test_should_run_no_more_than_hundred_times():
+
+    @backfill_operator()
+    def my_etl_func():
+
+        global run_count_6
+        run_count_6 += 1
+        return dt.timedelta(seconds=1000)
+
+    my_etl_func()
+    assert run_count_6 <= 100
