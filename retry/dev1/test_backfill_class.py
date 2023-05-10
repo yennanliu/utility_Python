@@ -7,45 +7,16 @@ run_count_2 = 0
 run_count_3 = 0
 run_count_4 = 0
 
-class MyETL1(MyFakeETL):
+def test_should_run_one_time():
 
-    @backfill_operator()
-    def run_etl(self):
+    class MyETL1(MyFakeETL):
 
-        global run_count_1
-        run_count_1 += 1
-        return super().run_etl()
+        @backfill_operator()
+        def run_etl(self):
 
-
-class MyETL2(MyFakeETL):
-
-    @backfill_operator(max_run=10)
-    def run_etl(self):
-
-        global run_count_2
-        run_count_2 += 1
-        print(f"MyETL2 run_etl, count = {run_count_2}")
-        return super().run_etl()
-
-class MyETL3(MyFakeETL):
-
-    @backfill_operator(max_run=10)
-    def run_etl(self):
-
-        global run_count_3
-        run_count_3 += 1
-        return super().run_etl()
-
-class MyETL4(MyFakeETL):
-
-    @backfill_operator(max_run=10)
-    def run_etl(self):
-
-        global run_count_4
-        run_count_4 += 1
-        return super().run_etl()
-
-def test_count_equals_five():
+            global run_count_1
+            run_count_1 += 1
+            return super().run_etl()
 
     etl =  MyETL1(
         init_data_lag=dt.timedelta(seconds=15),
@@ -57,7 +28,19 @@ def test_count_equals_five():
 
     assert run_count_1 == 1
 
-def test_count_equals_ten():
+def test_should_run_ten_time():
+
+
+    class MyETL2(MyFakeETL):
+
+        @backfill_operator(max_run=10)
+        def run_etl(self):
+
+            global run_count_2
+            run_count_2 += 1
+            print(f"MyETL2 run_etl, count = {run_count_2}")
+            return super().run_etl()
+
 
     etl =  MyETL2(
         init_data_lag=dt.timedelta(seconds=20),
@@ -69,7 +52,16 @@ def test_count_equals_ten():
 
     assert run_count_2 == 10
 
-def test_count_equals_one():
+def test_should_run_ten_time2():
+
+    class MyETL3(MyFakeETL):
+
+        @backfill_operator(max_run=10)
+        def run_etl(self):
+
+            global run_count_3
+            run_count_3 += 1
+            return super().run_etl()
 
     etl =  MyETL3(
         init_data_lag=dt.timedelta(seconds=0),
@@ -81,7 +73,17 @@ def test_count_equals_one():
 
     assert run_count_3 == 1
 
-def test_count_equals_five_():
+def test_should_run_five_time():
+
+
+    class MyETL4(MyFakeETL):
+
+        @backfill_operator(max_run=10)
+        def run_etl(self):
+
+            global run_count_4
+            run_count_4 += 1
+            return super().run_etl()
 
     etl =  MyETL4(
         init_data_lag=dt.timedelta(seconds=14),

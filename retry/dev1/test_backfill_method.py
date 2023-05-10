@@ -6,8 +6,7 @@ run_count_2 = 0
 run_count_3 = 0
 delta_second_3 = 10
 
-def test_count_equals_ten():
-
+def test_should_run_ten_times():
 
     @backfill_operator(max_run=10)
     def my_etl_func1():
@@ -19,8 +18,7 @@ def test_count_equals_ten():
     my_etl_func1()
     assert run_count_1 == 10
 
-def test_count_equals_three():
-
+def test_should_run_three_times():
 
     @backfill_operator(max_run=3)
     def my_etl_func2():
@@ -32,7 +30,7 @@ def test_count_equals_three():
     my_etl_func2()
     assert run_count_2 == 3
 
-def test_count_equals_five():
+def test_should_run_five_times():
 
     @backfill_operator(max_run=10, 
         min_data_lag_to_stop=dt.timedelta(seconds=5), 
