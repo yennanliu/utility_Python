@@ -8,6 +8,7 @@ run_count_3 = 0
 run_count_4 = 0
 run_count_5 = 0
 run_count_6 = 0
+run_count_7 = 0
 delta_second_1 = 0
 delta_second_2 = 0
 
@@ -145,3 +146,28 @@ def test_should_run_no_more_than_hundred_times():
 
     etl.run_etl()
     assert run_count_6 <= 100
+
+
+def test_should_run_one_time_if_no_need_to_catchup():
+
+
+    class MyETL(MyFakeETL):
+
+        @backfill_operator(max_run=10, 
+            min_data_lag_to_stop=dt.timedelta(seconds=1000), 
+            latest_time_for_rerun=dt.timedelta(seconds=1 + 1))
+        def run_etl(self):
+
+            global run_count_7
+            run_count_7 += 1
+            #delta_second_2 -= 1
+            return super().run_etl()
+
+    etl =  MyETL(
+        init_data_lag=dt.timedelta(seconds=1000),
+        etl_process_time=dt.timedelta(seconds=2),
+        offset_after_run_etl=dt.timedelta(seconds=1 + 2)
+    )
+
+    etl.run_etl()
+    assert run_count_7 == 1
