@@ -13,7 +13,7 @@ delta_second_2 = 10
 
 def test_run_one_time_when_delay_in_range():
 
-    @backfill_operator(max_run=1, min_data_lag_to_stop=dt.timedelta(seconds=10))
+    @backfill_operator(max_run=10, min_data_lag_to_stop=dt.timedelta(seconds=10))
     def my_etl_func():
 
         global run_count_1

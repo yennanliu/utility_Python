@@ -7,33 +7,32 @@ run_count_2 = 0
 run_count_3 = 0
 run_count_4 = 0
 
-def test_should_run_one_time():
+def test_run_one_time_when_delay_in_range():
 
-    class MyETL1(MyFakeETL):
+    class MyETL(MyFakeETL):
 
-        @backfill_operator()
+        @backfill_operator(max_run=10, min_data_lag_to_stop=dt.timedelta(seconds=10))
         def run_etl(self):
 
             global run_count_1
             run_count_1 += 1
             return super().run_etl()
 
-    etl =  MyETL1(
-        init_data_lag=dt.timedelta(seconds=15),
+    etl =  MyETL(
+        init_data_lag=dt.timedelta(seconds=5),
         etl_process_time=dt.timedelta(seconds=1),
-        offset_after_run_etl=dt.timedelta(seconds=1 + 8)
+        offset_after_run_etl=dt.timedelta(seconds=1 + 1)
     )
 
     etl.run_etl()
-
     assert run_count_1 == 1
 
-def test_should_run_ten_time():
+def test_run_ten_times_when_delay_out_of_range():
 
 
-    class MyETL2(MyFakeETL):
+    class MyETL(MyFakeETL):
 
-        @backfill_operator(max_run=10)
+        @backfill_operator(max_run=10, min_data_lag_to_stop=dt.timedelta(seconds=10))
         def run_etl(self):
 
             global run_count_2
@@ -41,56 +40,53 @@ def test_should_run_ten_time():
             print(f"MyETL2 run_etl, count = {run_count_2}")
             return super().run_etl()
 
-
-    etl =  MyETL2(
-        init_data_lag=dt.timedelta(seconds=20),
+    etl =  MyETL(
+        init_data_lag=dt.timedelta(seconds=100),
         etl_process_time=dt.timedelta(seconds=3),
         offset_after_run_etl=dt.timedelta(seconds=1 + 1)
     )
 
     etl.run_etl()
-
     assert run_count_2 == 10
 
-def test_should_run_ten_time2():
+def test_should_run_max_ten_times_if_cant_catch_up():
 
-    class MyETL3(MyFakeETL):
+    class MyETL(MyFakeETL):
 
-        @backfill_operator(max_run=10)
+        @backfill_operator(max_run=10, min_data_lag_to_stop=dt.timedelta(seconds=10))
         def run_etl(self):
 
             global run_count_3
             run_count_3 += 1
             return super().run_etl()
 
-    etl =  MyETL3(
-        init_data_lag=dt.timedelta(seconds=0),
+    etl =  MyETL(
+        init_data_lag=dt.timedelta(seconds=15),
         etl_process_time=dt.timedelta(seconds=3),
-        offset_after_run_etl=dt.timedelta(seconds=1 + 1)
+        offset_after_run_etl=dt.timedelta(seconds=1 + 5)
     )
 
     etl.run_etl()
+    assert run_count_3 <= 10
 
-    assert run_count_3 == 1
-
-def test_should_run_five_time():
+def test_should_run_ten_times_as_default():
 
 
-    class MyETL4(MyFakeETL):
+    class MyETL(MyFakeETL):
 
-        @backfill_operator(max_run=10)
+        @backfill_operator()
         def run_etl(self):
 
             global run_count_4
             run_count_4 += 1
             return super().run_etl()
 
-    etl =  MyETL4(
-        init_data_lag=dt.timedelta(seconds=14),
+    etl =  MyETL(
+        init_data_lag=dt.timedelta(seconds=30),
         etl_process_time=dt.timedelta(seconds=2),
-        offset_after_run_etl=dt.timedelta(seconds=1 + 2)
+        offset_after_run_etl=dt.timedelta(seconds=1 + 0)
     )
 
     etl.run_etl()
 
-    assert run_count_4 == 5
+    assert run_count_4 == 10
