@@ -78,9 +78,9 @@ def test_should_run_five_times_if_can_catchup():
     assert run_count_5 == 5
 
 
-def test_should_run_no_more_than_hundred_times(max_run=100):
+def test_should_run_no_more_than_hundred_times():
 
-    @backfill_operator()
+    @backfill_operator(max_run=100)
     def my_etl_func():
 
         global run_count_6
