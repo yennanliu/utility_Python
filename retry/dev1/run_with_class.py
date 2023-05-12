@@ -8,6 +8,7 @@ logger = logging.getLogger("main")
 run_count = 0
 run_count_2 = 0
 run_count_3 = 0
+run_count_4 = 0
 delta_second_1 = 0
 
 
@@ -48,11 +49,24 @@ class FakeETL4(MyFakeETL):
         print(f"run_count_3 = {run_count_3}")
         return super().run_etl()
 
+
+class FakeETL5(MyFakeETL):
+
+    @backfill_operator(max_run=10, 
+        min_data_lag_to_stop=dt.timedelta(seconds=1), 
+        latest_time_for_rerun=dt.timedelta(seconds=1 + 30))
+    def run_etl(self):
+
+        global run_count_4
+        print(f"--> run_count_4 = {run_count_4}")
+        run_count_4 += 1
+        return super().run_etl()
+
 def main():
 
     config_log()
     #etl_classes = [FakeETL1, FakeETL2]
-    etl_classes = [FakeETL4]
+    etl_classes = [FakeETL5]
     for etl_class in etl_classes:
         logger.info(f"ETL = {etl_class}")
 
@@ -74,11 +88,17 @@ def main():
         # offset_after_run_etl=dt.timedelta(seconds=1 + 1)
         # )
 
+        # etl =  etl_class(
+        # init_data_lag=dt.timedelta(seconds=12),
+        # etl_process_time=dt.timedelta(seconds=0.5),
+        # offset_after_run_etl=dt.timedelta(seconds=2),
+        # stop_threshold = 3
+        # )
+
         etl =  etl_class(
-        init_data_lag=dt.timedelta(seconds=12),
-        etl_process_time=dt.timedelta(seconds=0.5),
-        offset_after_run_etl=dt.timedelta(seconds=2),
-        stop_threshold = 3
+            init_data_lag=dt.timedelta(seconds=1000),
+            etl_process_time=dt.timedelta(seconds=2),
+            offset_after_run_etl=dt.timedelta(seconds=1 + 4)
         )
 
 

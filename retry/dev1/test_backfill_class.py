@@ -171,3 +171,31 @@ def test_should_run_one_time_if_no_need_to_catchup():
 
     etl.run_etl()
     assert run_count_7 == 1
+
+
+def test_should_run_in_defined_duration():
+
+    run_count = 0
+
+    class MyETL(MyFakeETL):
+
+        @backfill_operator(max_run=5, 
+            min_data_lag_to_stop=dt.timedelta(seconds=1), 
+            latest_time_for_rerun=dt.timedelta(seconds=1 + 30))
+        def run_etl(self):
+
+            nonlocal run_count
+            run_count += 1
+            return super().run_etl()
+
+    etl =  MyETL(
+        init_data_lag=dt.timedelta(seconds=1000),
+        etl_process_time=dt.timedelta(seconds=1),
+        offset_after_run_etl=dt.timedelta(seconds=1 + 1)
+    )
+
+    start_time = dt.datetime.utcnow()
+    etl.run_etl()
+    end_time = dt.datetime.utcnow()
+    time_diff_sec = (end_time - start_time).total_seconds()
+    assert int(time_diff_sec) == 5
