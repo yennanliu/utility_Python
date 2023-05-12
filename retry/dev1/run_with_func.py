@@ -1,4 +1,5 @@
 import datetime as dt
+import time
 import logging
 from BackfillOperator import backfill_operator
 from LogConfig import config_log
@@ -54,12 +55,27 @@ def dummy_etl_func_3():
     return dt.timedelta(seconds=data_delta_1)
 
 
+@backfill_operator(max_run=10)
+def dummy_etl_func_4():
+
+    #print("dummy_etl_func_1 run")
+    global run_count
+    run_count += 1
+    time.sleep(1)
+    logger.info(f"run_count = {run_count}")
+    return dt.timedelta(seconds=30)
+
 def main():
 
     config_log()
     #dummy_etl_func_1()
     #dummy_etl_func_2()
-    dummy_etl_func_3()
+    #dummy_etl_func_3()
+    dummy_etl_func_4()
 
 if __name__ == '__main__':
+    start_time = dt.datetime.utcnow()
     main()
+    end_time = dt.datetime.utcnow()
+    time_diff_sec = (end_time - start_time).total_seconds()
+    print(f"--> start_time = {start_time}, end_time = {end_time}, time_diff_sec = {time_diff_sec}")
