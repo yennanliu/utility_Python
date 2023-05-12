@@ -19,6 +19,10 @@ class MyFakeETL:
 
     def __init__(self, init_data_lag, etl_process_time, offset_after_run_etl, stop_threshold=DEFAULT_STOP_THRESHOLD):
         
+        print (f"type of init_data_lag = {type(init_data_lag)}")
+        if not (isinstance(init_data_lag, dt.timedelta) and isinstance(etl_process_time, dt.timedelta) and isinstance(offset_after_run_etl, dt.timedelta)):
+            raise ValueError("init_data_lag or etl_process_time or offset_after_run_etl type error")
+        
         self._timestamp_of_last_etl_run = self.get_cur_time() - init_data_lag
         self._etl_process_time = etl_process_time
         self._offset_after_run_etl = offset_after_run_etl
