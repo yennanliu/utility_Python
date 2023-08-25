@@ -18,7 +18,7 @@ lock = multiprocessing.Manager().Lock()
 def smile_detection(thread_name):
     global count, lock
 
-    for x in range(10):
+    for x in range(100):
         with lock:
             counter.value +=1
             print (f"Process id = {os.getpid()}, input = {input}, thread_name = {thread_name}, counter value = {counter.value}")
