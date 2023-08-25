@@ -45,7 +45,7 @@ def upload_to_s3(thread_name):
             print (f"Process id = {os.getpid()}, input = {input}, thread_name = {thread_name}, counter value = {counter.value}")
             cur_time, cur_date = cur_time_formatter('%Y-%m-%d-%H-%M-%S'), cur_time_formatter('%Y/%m/%d')
             key_name = f"dev1/{cur_date}/{cur_time}-{chunk}.json"
-            resp_data = {"val": chunk}
+            resp_data = {"val": counter.value}
             print (f"resp_data = {resp_data}")
             write_to_s3(_s3_client, BUCKET_NAME, key_name, resp_data)
 
