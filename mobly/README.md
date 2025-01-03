@@ -11,6 +11,8 @@ pip install mobly aware
 ```bash
 # linux
 
+cd ~
+
 sudo apt install python3-venv
 
 python3 -m venv yen_py_env
@@ -39,9 +41,7 @@ python3 test_1.py -c sample_config.yml
 # TEST 2
 #-----------------------
 
-cd android_integ_test
-
-atest CtsWifiAwareTestCases
+python3 instrumentation_test.py -c sample_config.yml
 ```
 
 
