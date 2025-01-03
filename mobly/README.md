@@ -3,6 +3,19 @@
 ## Setup
 
 ```bash
+# mac
+
+pip install mobly
+```
+
+```bash
+# linux
+
+sudo apt install python3-venv
+
+python3 -m venv yen_py_env
+
+source yen_py_env/bin/activate
 
 pip install mobly
 ```
