@@ -1,0 +1,113 @@
+// Copyright (C) 2023 The Android Open Source Project
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+package {
+    default_team: "trendy_team_fwk_wifi_hal",
+    default_applicable_licenses: ["Andsroid-Apache-2.0"],
+}
+
+python_test_host {
+    name: "WifiAwareAttachTestCases",
+    main: "wifi_aware_attached_test.py",
+    srcs: ["wifi_aware_attached_test.py"],
+    device_common_data: [":wifi_aware_snippet_new"],
+    libs: [
+        "aware_lib_utils",
+        "mobly",
+        "wifi_aware_constants",
+    ],
+    test_suites: [
+        "general-tests",
+    ],
+    test_options: {
+        unit_test: false,
+        tags: ["mobly"],
+    },
+}
+
+python_test_host {
+    name: "WifiAwareDiscoveryCases",
+    main: "wifi_aware_discovery_test.py",
+    srcs: ["wifi_aware_discovery_test.py"],
+    device_common_data: [":wifi_aware_snippet_new"],
+    libs: [
+        "aware_lib_utils",
+        "mobly",
+        "wifi_aware_constants",
+    ],
+    test_suites: [
+        "general-tests",
+    ],
+    test_options: {
+        unit_test: false,
+        tags: ["mobly"],
+    },
+}
+
+python_test_host {
+    name: "WifiAwareMessageCases",
+    main: "wifi_aware_message_test.py",
+    srcs: ["wifi_aware_message_test.py"],
+    device_common_data: [":wifi_aware_snippet_new"],
+    libs: [
+        "aware_lib_utils",
+        "mobly",
+        "wifi_aware_constants",
+    ],
+    test_suites: [
+        "general-tests",
+    ],
+    test_options: {
+        unit_test: false,
+        tags: ["mobly"],
+    },
+}
+
+python_test_host {
+    name: "WifiAwareMatchFilterCases",
+    main: "wifi_aware_matchfilter_test.py",
+    srcs: ["wifi_aware_matchfilter_test.py"],
+    device_common_data: [":wifi_aware_snippet_new"],
+    libs: [
+        "aware_lib_utils",
+        "mobly",
+        "wifi_aware_constants",
+    ],
+    test_suites: [
+        "general-tests",
+    ],
+    test_options: {
+        unit_test: false,
+        tags: ["mobly"],
+    },
+}
+
+python_test_host {
+    name: "WifiAwareDatapathTestCases",
+    main: "wifi_aware_datapath_test.py",
+    srcs: ["wifi_aware_datapath_test.py"],
+    device_common_data: [":wifi_aware_snippet_new"],
+    libs: [
+        "aware_lib_utils",
+        "mobly",
+        "wifi_aware_constants",
+    ],
+    test_suites: [
+        "general-tests",
+    ],
+    test_options: {
+        unit_test: false,
+        tags: ["mobly"],
+    },
+}
