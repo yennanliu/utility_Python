@@ -78,6 +78,18 @@ python3 instrumentation_test.py -c sample_config.yml
 		- test automation
 		- interaction with the app
 
+
+- 4) `Android Instrumentation` 
+	- a framework provided by the Android operating system that allows developers to perform automated testing of Android applications. It provides a way to execute code in the context of an Android application and interact with its components, such as Activities, Services, Broadcast Receivers, and other parts of the app. Instrumentation enables developers and testers to run tests that interact with the app’s UI, check for specific behaviors, and verify the app's functionality under various conditions.
+
+
+## QA
+
+- 1) Difference between `Android Instrumentation` and `Mobly` ?
+	- `Android Instrumentation` is ideal for testing individual apps and UI interactions at the app level.
+	- `Mobly`, on the other hand, is designed for more complex scenarios, such as end-to-end testing across multiple devices and device management, making it more suitable for large-scale testing environments.
+
+
 ## Ref
 - https://github.com/google/mobly/blob/master/docs/tutorial.md
 - https://mobly.readthedocs.io/en/latest/index.html - Mobly pkg doc
