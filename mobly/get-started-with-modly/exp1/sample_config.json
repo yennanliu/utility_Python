@@ -1,0 +1,11 @@
+{
+    "testbed":
+    [
+        {
+            "_description": "A testbed where adb will find Android devices.",
+            "name": "SampleTestBed",
+            "AndroidDevice": "*"
+        }
+    ],
+    "logpath": "/tmp/logs"
+}

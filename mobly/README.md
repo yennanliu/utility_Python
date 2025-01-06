@@ -9,7 +9,7 @@ pip install mobly aware
 ```
 
 ```bash
-# linux
+# install mobly
 
 cd ~
 
@@ -20,6 +20,20 @@ python3 -m venv yen_py_env
 source yen_py_env/bin/activate
 
 pip install mobly
+```
+
+
+```bash
+
+# install adb
+
+sudo apt update
+
+sudo apt install adb
+
+# validate
+
+adb
 ```
 
 ## Cmd
