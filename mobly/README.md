@@ -48,3 +48,4 @@ python3 instrumentation_test.py -c sample_config.yml
 ## Ref
 - https://github.com/google/mobly/blob/master/docs/tutorial.md
 - https://source.android.com/docs/core/tests/tradefed/testing/through-suite/multi-devices-suites?hl=zh-tw
+- https://gitee.com/mirrors/Mobly/wikis/Getting-Started-with-Mobly
