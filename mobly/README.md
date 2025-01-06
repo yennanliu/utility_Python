@@ -70,8 +70,16 @@ python3 instrumentation_test.py -c sample_config.yml
 		- Shell Access: ADB allows access to the Android device’s command shell, enabling you to run system commands directly on the device.
 		- App Installation and Management: ADB is used to install, uninstall, and manage Android apps from the command line, which is essential for automation and testing.
 
+- 3) `application.apk`
+	- In Mobly, an application.apk typically refers to the Android application package (APK) file that is used in the automation testing process. The APK file is the package format used by Android to distribute and install applications. It contains all the necessary resources, assets, and code (compiled in .dex files) for an Android app to run.
+	- When performing automated testing using Mobly, you often need to interact with or test specific Android applications. The application.apk is the actual Android app file that you may install, launch, and interact with during the test.
+	- usage
+		- install the app
+		- test automation
+		- interaction with the app
 
 ## Ref
 - https://github.com/google/mobly/blob/master/docs/tutorial.md
+- https://mobly.readthedocs.io/en/latest/index.html - Mobly pkg doc
 - https://source.android.com/docs/core/tests/tradefed/testing/through-suite/multi-devices-suites?hl=zh-tw
 - https://gitee.com/mirrors/Mobly/wikis/Getting-Started-with-Mobly
