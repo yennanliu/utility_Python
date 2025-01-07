@@ -1,5 +1,6 @@
 TestBeds:
-  # A test bed where adb will find Android devices.
   - Name: SampleTestBed
     Controllers:
         AndroidDevice: '*'
+    TestParams:
+        favorite_food: Green eggs and ham.

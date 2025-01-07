@@ -16,5 +16,12 @@ class HelloWorldTest(base_test.BaseTestClass):
   def test_bye(self):
     self.dut.mbs.makeToast('Goodbye! >>>>')
 
+  def test_favorite_food(self):
+    food = self.user_params.get('favorite_food')
+    if food:
+      self.dut.mbs.makeToast(">>> I'd like to eat %s." % food)
+    else:
+      self.dut.mbs.makeToast(">>> I'm not hungry.")    
+
 if __name__ == '__main__':
   test_runner.main()

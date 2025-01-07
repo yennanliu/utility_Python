@@ -1,0 +1,20 @@
+# DefaultParams is optional here. It uses yaml's anchor feature to easily share
+# a set of parameters between multiple test bed configs
+DefaultParams: &DefaultParams
+    favorite_food: green eggs and ham.
+
+TestBeds:
+  - Name: XyzTestBed
+    Controllers:
+        AndroidDevice:
+          - serial: xyz
+            phone_number: 123456
+    TestParams:
+        <<: *DefaultParams
+  - Name: AbcTestBed
+    Controllers:
+        AndroidDevice:
+          - serial: abc
+            label: golden_device
+    TestParams:
+        <<: *DefaultParams
