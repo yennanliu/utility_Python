@@ -14,7 +14,7 @@ TestBeds:
   - Name: AbcTestBed
     Controllers:
         AndroidDevice:
-          - serial: abc
+          - serial: xxx # replace with device serial number
             label: golden_device
     TestParams:
         <<: *DefaultParams
