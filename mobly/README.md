@@ -126,6 +126,14 @@ python3 instrumentation_test.py -c sample_config.yml
 
 - 4) `Android Instrumentation` 
 	- a framework provided by the Android operating system that allows developers to perform automated testing of Android applications. It provides a way to execute code in the context of an Android application and interact with its components, such as Activities, Services, Broadcast Receivers, and other parts of the app. Instrumentation enables developers and testers to run tests that interact with the app’s UI, check for specific behaviors, and verify the app's functionality under various conditions.
+ 
+- 5) `am start`
+	- The am start command is used in Android's `Android Debug Bridge (ADB)` to start an Activity on an Android device. It's part of the Android Activity Manager (am) tool, which allows you to interact with the system and launch apps, activities, or services from the command line.
+
+- 6) `ADB` (Andriod Debug Bridge)
+- 7) `AM` (Android Activity Manager)
+
+
 
 
 ## QA
