@@ -72,9 +72,14 @@ python3 hello_world_test_2.py -c sample_config_2.yml --test_bed AbcTestBed
 # TEST 3
 #-----------------------
 
-
 python3 sample_test.py -c sample_config_3.yml
 
+
+#-----------------------
+# TEST 4
+#-----------------------
+
+python3 many_greetings_test.py -c sample_config.yml
 
 
 #-----------------------
