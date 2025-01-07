@@ -40,6 +40,9 @@ adb
 
 ```bash
 
+# https://github.com/google/mobly/blob/master/docs/tutorial.md
+
+
 #-----------------------
 # TEST 1
 #-----------------------
@@ -49,6 +52,15 @@ python3 hello_world_test.py -c sample_config.yml
 
 python3 test_1.py -c sample_config.yml
 
+
+#-----------------------
+# TEST 2
+#-----------------------
+
+# should see words popup at device monitor
+python3 hello_world_test_2.py -c sample_config.yml
+
+python3 hello_world_test_2.py -c sample_config.yml --test_case test_bye test_hello test_bye
 
 
 #-----------------------

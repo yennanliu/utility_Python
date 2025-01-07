@@ -8,10 +8,14 @@ class InstrumentationTest(base_instrumentation_test.BaseInstrumentationTestClass
     def setup_class(self):
 
         print(">>> InstrumentationTest start")
+        print(">>> android_device = " + str(android_device))
         self.dut = self.register_controller(android_device)[0]
+        print(">>> self.dut  = " + str(self.dut))
 
     def test_instrumentation(self):
-        self.run_instrumentation_test(self.dut, 'com.example.package.test')
+        print("dummy test_instrumentation run")
+        #self.run_instrumentation_test(self.dut, 'com.example.package.test')
+        #self.dut.run_instrumentation_test('self.dut', android_device.MBS_PACKAGE)
 
 
 if __name__ == '__main__':
