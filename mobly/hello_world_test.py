@@ -4,6 +4,10 @@ from mobly.controllers import android_device
 
 class HelloWorldTest(base_test.BaseTestClass):
   def setup_class(self):
+
+
+    print(">>> HelloWorldTest start")
+    
     # Registering android_device controller module declares the test's
     # dependency on Android device hardware. By default, we expect at least one
     # object is created from this.

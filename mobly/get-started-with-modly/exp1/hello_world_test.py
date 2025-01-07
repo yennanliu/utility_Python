@@ -8,6 +8,7 @@ class HelloWorldTest(base_test.BaseTestClass):
     # Registering android_device controller module declares the test's
     # dependency on Android device hardware. By default, we expect at least one
     # object is created from this.
+
     self.ads = self.register_controller(android_device)
     self.dut = self.ads[0]
     self.dut.load_sl4a() # starts sl4a.

@@ -6,6 +6,8 @@ from mobly.controllers import android_device
 
 class InstrumentationTest(base_instrumentation_test.BaseInstrumentationTestClass):
     def setup_class(self):
+
+        print(">>> InstrumentationTest start")
         self.dut = self.register_controller(android_device)[0]
 
     def test_instrumentation(self):
