@@ -45,16 +45,14 @@ adb devices
 
 # https://github.com/google/mobly/blob/master/docs/tutorial.md
 
+cd ~ && source yen_py_env/bin/activate
+
 
 #-----------------------
 # TEST 1
 #-----------------------
 
 python3 hello_world_test.py -c sample_config.yml
-
-
-python3 test_1.py -c sample_config.yml
-
 
 #-----------------------
 # TEST 2
@@ -83,7 +81,14 @@ python3 many_greetings_test.py -c sample_config.yml
 
 
 #-----------------------
-# TEST 2
+# TEST 5
+#-----------------------
+
+python3 open_setting_test.py  -c sample_config.yml
+
+
+#-----------------------
+# TEST ?
 #-----------------------
 
 python3 instrumentation_test.py -c sample_config.yml
