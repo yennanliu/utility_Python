@@ -95,6 +95,13 @@ python3 take_photo_test.py -c sample_config.yml
 
 
 #-----------------------
+# TEST 7
+#-----------------------
+
+python3 browser_test.py -c sample_config.yml
+
+
+#-----------------------
 # TEST ?
 #-----------------------
 
