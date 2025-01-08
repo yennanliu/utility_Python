@@ -88,6 +88,13 @@ python3 open_setting_test.py  -c sample_config.yml
 
 
 #-----------------------
+# TEST 6
+#-----------------------
+
+python3 take_photo_test.py -c sample_config.yml
+
+
+#-----------------------
 # TEST ?
 #-----------------------
 
