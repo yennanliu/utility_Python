@@ -16,7 +16,7 @@ class BrowserTest(base_test.BaseTestClass):
         self.dut.adb.shell('am start -a android.intent.action.VIEW -d "http://www.google.com"')
         time.sleep(5)  # Wait for the page to load
 
-        self.dut.adb.shell('am start -a android.intent.action.VIEW -d "http://www.github.com"')
+        #self.dut.adb.shell('am start -a android.intent.action.VIEW -d "http://www.github.com"')
         time.sleep(5)  # Wait for the page to load
         self.search_github()
 
@@ -24,8 +24,13 @@ class BrowserTest(base_test.BaseTestClass):
     def search_github(self):
         print(">>> Searching for 'github' on Google")
 
-        # Focus on the search bar: tapping on the search bar (coordinates need to be accurate)
-        self.dut.adb.shell('input tap 540 160')  # Coordinates for the Google search bar (adjust as needed)
+        # Focus on the search bar: tapping on the search bar (coordinates need to be accurate
+        # ABS_MT_POSITION_X : 00001725
+        # ABS_MT_POSITION_Y:  000014ab
+
+        #self.dut.adb.shell('input tap 540 160')  # Coordinates for the Google search bar (adjust as needed)
+        self.dut.adb.shell('input tap 5941 5291')
+
         time.sleep(1)  # Give it some time to focus
 
         # Simulate typing 'github' into the search box
